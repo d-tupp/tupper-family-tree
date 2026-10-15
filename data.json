@@ -1,11 +1,6 @@
 [
  {
   "id": "eli",
-  "parents": [],
-  "spouse": [
-   "marybassett"
-  ],
-  "gen": 0,
   "name": "Eliakim Tupper Jr.",
   "conf": "confirmed",
   "born": "20 Jun 1711",
@@ -13,7 +8,10 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "Born in Sandwich, MA. He had been a Captain, Deacon and representative in Lebanon, CT, and moved to Cornwallis about 1760. His death date is given as 28 Feb 1761 (WikiTree) or 28 Jan 1761 (one source cited by douglasjgraham.net).",
+  "parents": [],
+  "spouse": [
+   "marybassett"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
@@ -28,6 +26,8 @@
     "https://douglasjgraham.net/Tupper.html"
    ]
   ],
+  "gen": 0,
+  "note": "Born in Sandwich, MA. He had been a Captain, Deacon and representative in Lebanon, CT, and moved to Cornwallis about 1760. His death date is given as 28 Feb 1761 (WikiTree) or 28 Jan 1761 (one source cited by douglasjgraham.net).",
   "highlights": [
    {
     "text": "Captain and Deacon in Lebanon, Connecticut, and served there as a representative",
@@ -47,11 +47,6 @@
  },
  {
   "id": "marybassett",
-  "parents": [],
-  "spouse": [
-   "eli"
-  ],
-  "gen": 0,
   "name": "Mary Bassett",
   "conf": "likely",
   "born": "24 Dec 1709",
@@ -59,25 +54,22 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "eli"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
     "https://www.wikitree.com/wiki/Tupper-949"
    ]
   ],
+  "gen": 0,
+  "note": "",
   "highlights": []
  },
  {
   "id": "charles",
-  "parents": [
-   "eli",
-   "marybassett"
-  ],
-  "spouse": [
-   "elizwest"
-  ],
-  "gen": 1,
   "name": "Charles Tupper",
   "conf": "confirmed",
   "born": "19 Aug 1748",
@@ -85,7 +77,13 @@
   "grave": "Morristown Cemetery (Old), Morristown, Kings Co. (per FamilySearch)",
   "graveconf": "likely",
   "obit": "",
-  "note": "That makes Sir Charles a first cousin of Thomas Handley Tupper, and a living relative's line a collateral branch of the Prime Minister's family. Conflict: one secondary source says Charles and his wife died after 1837; FamilySearch and WikiTree give 29 Apr 1821.",
+  "parents": [
+   "eli",
+   "marybassett"
+  ],
+  "spouse": [
+   "elizwest"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
@@ -104,12 +102,28 @@
     "https://douglasjgraham.net/Tupper.html"
    ]
   ],
+  "gen": 1,
+  "note": "Sir Charles Tupper (1821 to 1915), Premier of Nova Scotia and Prime Minister of Canada, was his grandson through Rev. Charles Tupper (1794 to 1881). That makes Sir Charles a first cousin of Thomas Handley Tupper, and Dustin's line a collateral branch of the Prime Minister's family. Conflict: one secondary source says Charles and his wife died after 1837; FamilySearch and WikiTree give 29 Apr 1821.",
   "highlights": [
    {
     "text": "Came to Cornwallis Township as a boy with his Planter family about 1760",
     "src": [
      "A Family Reunion: Tupper (douglasjgraham.net)",
      "https://douglasjgraham.net/Tupper.html"
+    ]
+   },
+   {
+    "text": "Farmer in Cornwallis Township, according to his son's biography",
+    "src": [
+     "Dictionary of Canadian Biography: Rev. Charles Tupper (1794-1881)",
+     "http://www.biographi.ca/en/bio/tupper_charles_11E.html"
+    ]
+   },
+   {
+    "text": "Married Elizabeth West in Cornwallis in 1771; FamilySearch lists at least 15 children",
+    "src": [
+     "FamilySearch: Charles Eliakim Tupper (1748-1821)",
+     "https://ancestors.familysearch.org/en/LHLH-65G/charles-eliakim-tupper-1748-1821"
     ]
    },
    {
@@ -130,11 +144,6 @@
  },
  {
   "id": "elizwest",
-  "parents": [],
-  "spouse": [
-   "charles"
-  ],
-  "gen": 1,
   "name": "Elizabeth West",
   "conf": "likely",
   "born": "09 Feb 1754 (Rochester, MA)",
@@ -142,25 +151,22 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "charles"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
     "https://www.wikitree.com/wiki/Tupper-949"
    ]
   ],
+  "gen": 1,
+  "note": "",
   "highlights": []
  },
  {
   "id": "thomas1774",
-  "parents": [
-   "charles",
-   "elizwest"
-  ],
-  "spouse": [
-   "jerusha"
-  ],
-  "gen": 2,
   "name": "Thomas Tupper",
   "conf": "confirmed",
   "born": "03 Mar 1774",
@@ -168,7 +174,13 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [
+   "charles",
+   "elizwest"
+  ],
+  "spouse": [
+   "jerusha"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
@@ -183,15 +195,20 @@
     "https://ancestors.familysearch.org/en/LHLH-65G/charles-eliakim-tupper-1748-1821"
    ]
   ],
-  "highlights": []
+  "gen": 2,
+  "note": "",
+  "highlights": [
+   {
+    "text": "Son of Charles Tupper and Elizabeth West (FamilySearch lists him among their children), which makes him an older brother of Rev. Charles Tupper DD and an uncle of Sir Charles Tupper",
+    "src": [
+     "FamilySearch: Charles Eliakim Tupper (1748-1821)",
+     "https://ancestors.familysearch.org/en/LHLH-65G/charles-eliakim-tupper-1748-1821"
+    ]
+   }
+  ]
  },
  {
   "id": "jerusha",
-  "parents": [],
-  "spouse": [
-   "thomas1774"
-  ],
-  "gen": 2,
   "name": "Jerusha (Scovil/Schofield) Tupper",
   "conf": "confirmed",
   "born": "30 Mar 1780",
@@ -199,7 +216,10 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "Find a Grave spells her name Scovil; WikiTree spells it Schofield.",
+  "parents": [],
+  "spouse": [
+   "thomas1774"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
@@ -210,15 +230,12 @@
     "https://www.findagrave.com/memorial/147413414"
    ]
   ],
+  "gen": 2,
+  "note": "Find a Grave spells her name Scovil; WikiTree spells it Schofield.",
   "highlights": []
  },
  {
   "id": "elijahp",
-  "parents": [],
-  "spouse": [
-   "hepzibah"
-  ],
-  "gen": 2,
   "name": "Elijah Phinney",
   "conf": "likely",
   "born": "06 Apr 1773",
@@ -226,22 +243,22 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "hepzibah"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
     "https://www.wikitree.com/wiki/Tupper-949"
    ]
   ],
+  "gen": 2,
+  "note": "",
   "highlights": []
  },
  {
   "id": "hepzibah",
-  "parents": [],
-  "spouse": [
-   "elijahp"
-  ],
-  "gen": 2,
   "name": "Hepzibah Chesley",
   "conf": "likely",
   "born": "23 Apr 1773",
@@ -249,25 +266,22 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "elijahp"
+  ],
   "src": [
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
     "https://www.wikitree.com/wiki/Tupper-949"
    ]
   ],
+  "gen": 2,
+  "note": "",
   "highlights": []
  },
  {
   "id": "tht",
-  "parents": [
-   "thomas1774",
-   "jerusha"
-  ],
-  "spouse": [
-   "mpp"
-  ],
-  "gen": 3,
   "name": "Thomas Handley Tupper",
   "conf": "confirmed",
   "born": "1 Apr 1810",
@@ -275,7 +289,13 @@
   "grave": "Old Kingston Cemetery, Kingston, Kings Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "Recorded in the 1871 census as head of household in Aylesford (per WikiTree). Conflict: WikiTree gives his death year as 1880; Find a Grave gives 1889, which is used here.",
+  "parents": [
+   "thomas1774",
+   "jerusha"
+  ],
+  "spouse": [
+   "mpp"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -294,18 +314,12 @@
     "https://www.findagrave.com/memorial/208447619"
    ]
   ],
+  "gen": 3,
+  "note": "Recorded in the 1871 census as head of household in Aylesford (per WikiTree). Other children: Arthur, Helen, Margaret Ann (Schofield), Eliakim. Conflict: WikiTree gives his death year as 1880; Find a Grave gives 1889, which is used here.",
   "highlights": []
  },
  {
   "id": "mpp",
-  "parents": [
-   "elijahp",
-   "hepzibah"
-  ],
-  "spouse": [
-   "tht"
-  ],
-  "gen": 3,
   "name": "Margaret P. Phinney",
   "conf": "confirmed",
   "born": "c. 1810",
@@ -313,7 +327,13 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "Find a Grave gives her middle initial as 'J'; WikiTree has 'P'.",
+  "parents": [
+   "elijahp",
+   "hepzibah"
+  ],
+  "spouse": [
+   "tht"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -328,15 +348,12 @@
     "https://www.findagrave.com/memorial/226088966"
    ]
   ],
+  "gen": 3,
+  "note": " Find a Grave gives her middle initial as 'J'; WikiTree has 'P'.",
   "highlights": []
  },
  {
   "id": "salw",
-  "parents": [],
-  "spouse": [
-   "maria"
-  ],
-  "gen": 3,
   "name": "Samuel Alwood Taylor",
   "conf": "confirmed",
   "born": "06 Nov 1818",
@@ -344,22 +361,22 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "maria"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
     "https://www.wikitree.com/wiki/Tupper-1249"
    ]
   ],
+  "gen": 3,
+  "note": "",
   "highlights": []
  },
  {
   "id": "maria",
-  "parents": [],
-  "spouse": [
-   "salw"
-  ],
-  "gen": 3,
   "name": "Maria Lysate",
   "conf": "confirmed",
   "born": "c. 1822",
@@ -367,25 +384,22 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "salw"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
     "https://www.wikitree.com/wiki/Tupper-1249"
    ]
   ],
+  "gen": 3,
+  "note": "",
   "highlights": []
  },
  {
   "id": "lpt",
-  "parents": [
-   "tht",
-   "mpp"
-  ],
-  "spouse": [
-   "eat"
-  ],
-  "gen": 4,
   "name": "Lot Phinney Tupper",
   "conf": "confirmed",
   "born": "21 Jul 1834 (Kingston, Kings Co.)",
@@ -393,7 +407,13 @@
   "grave": "Morristown Cemetery, Morristown, Kings Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "Conflict: Find a Grave gives his birth year as 1834, WikiTree as 1836. Find a Grave places his death in Morristown, WikiTree in Kingston.",
+  "parents": [
+   "tht",
+   "mpp"
+  ],
+  "spouse": [
+   "eat"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -408,18 +428,12 @@
     "https://www.findagrave.com/memorial/217037854"
    ]
   ],
+  "gen": 4,
+  "note": " Conflict: Find a Grave gives his birth year as 1834, WikiTree as 1836. Find a Grave places his death in Morristown, WikiTree in Kingston.",
   "highlights": []
  },
  {
   "id": "eat",
-  "parents": [
-   "salw",
-   "maria"
-  ],
-  "spouse": [
-   "lpt"
-  ],
-  "gen": 4,
   "name": "Elizabeth Ann Taylor",
   "conf": "confirmed",
   "born": "25 Aug 1842 (Aylesford)",
@@ -427,7 +441,13 @@
   "grave": "Morristown Cemetery, Morristown, Kings Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "",
+  "parents": [
+   "salw",
+   "maria"
+  ],
+  "spouse": [
+   "lpt"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -442,18 +462,12 @@
     "https://www.findagrave.com/memorial/217037855"
    ]
   ],
+  "gen": 4,
+  "note": "",
   "highlights": []
  },
  {
   "id": "wjt",
-  "parents": [
-   "lpt",
-   "eat"
-  ],
-  "spouse": [
-   "jfm"
-  ],
-  "gen": 5,
   "name": "William John Tupper",
   "conf": "confirmed",
   "born": "12 Apr 1869",
@@ -461,7 +475,13 @@
   "grave": "Unknown. No Find a Grave memorial was found, and other transcriptions were searched without success.",
   "graveconf": "speculative",
   "obit": "",
-  "note": "",
+  "parents": [
+   "lpt",
+   "eat"
+  ],
+  "spouse": [
+   "jfm"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -472,18 +492,12 @@
     "https://www.kingscountymuseum.ca/genealogyarchive/cemetery/Cemetery%20Data-T.HTML"
    ]
   ],
+  "gen": 5,
+  "note": "RootsWeb records him as \"John Tupper\", who married Jessie Morse in 1898.",
   "highlights": []
  },
  {
   "id": "jfm",
-  "parents": [
-   "esm",
-   "aag"
-  ],
-  "spouse": [
-   "wjt"
-  ],
-  "gen": 5,
   "name": "Jessie Florence Morse",
   "conf": "confirmed",
   "born": "06 Jun 1876",
@@ -491,7 +505,13 @@
   "grave": "Unknown. No Find a Grave memorial was found, and other transcriptions were searched without success.",
   "graveconf": "",
   "obit": "",
-  "note": "Her death date differs between sources: 9 Oct 1962 (WikiTree) and 2 Oct 1962 (RootsWeb).",
+  "parents": [
+   "esm",
+   "aag"
+  ],
+  "spouse": [
+   "wjt"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -506,15 +526,12 @@
     "https://freepages.rootsweb.com/~marjoriesplace/genealogy/html/d0002/g0000055.html"
    ]
   ],
+  "gen": 5,
+  "note": "Her first husband was Rupert M. Palmer (children Beatrice and Lorimer Neil Palmer). She married John Tupper in 1898. Children with him: Muriel Blanch, Rosamond Elizabeth, Durwood and Angie Alalia Tupper. Her death date differs between sources: 9 Oct 1962 (WikiTree) and 2 Oct 1962 (RootsWeb).",
   "highlights": []
  },
  {
   "id": "twinning",
-  "parents": [],
-  "spouse": [
-   "bessie"
-  ],
-  "gen": 5,
   "name": "Twining Haines",
   "conf": "confirmed",
   "born": "Unknown",
@@ -522,7 +539,10 @@
   "grave": "Barss Corner Baptist Cemetery, Lunenburg Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "Helen Gertrude's parent. Find a Grave links them as her parents, which confirms the earlier register-based match.",
+  "parents": [],
+  "spouse": [
+   "bessie"
+  ],
   "src": [
    [
     "Find a Grave: Twining Haines",
@@ -537,15 +557,12 @@
     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Lantz_Register/rr05/rr05_310.html"
    ]
   ],
+  "gen": 5,
+  "note": "Helen Gertrude's parent. Find a Grave links them as her parents, which confirms the earlier register-based match. The registers spell the name 'Twinning'.",
   "highlights": []
  },
  {
   "id": "bessie",
-  "parents": [],
-  "spouse": [
-   "twinning"
-  ],
-  "gen": 5,
   "name": "Bessie (Mossman) Haines",
   "conf": "confirmed",
   "born": "26 Apr 1878",
@@ -553,7 +570,10 @@
   "grave": "Barss Corner Baptist Cemetery, Lunenburg Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "Helen Gertrude's parent. Find a Grave links them as her parents, which confirms the earlier register-based match.",
+  "parents": [],
+  "spouse": [
+   "twinning"
+  ],
   "src": [
    [
     "Find a Grave: Bessie Mossman Haines",
@@ -568,18 +588,12 @@
     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Lantz_Register/rr05/rr05_310.html"
    ]
   ],
+  "gen": 5,
+  "note": "Helen Gertrude's parent. Find a Grave links them as her parents, which confirms the earlier register-based match.",
   "highlights": []
  },
  {
   "id": "dbt",
-  "parents": [
-   "wjt",
-   "jfm"
-  ],
-  "spouse": [
-   "hgh"
-  ],
-  "gen": 6,
   "name": "Durwood Belmont Tupper",
   "conf": "confirmed",
   "born": "16 Feb 1902",
@@ -587,7 +601,13 @@
   "grave": "Morristown Cemetery, Morristown, Kings Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "Spelled \"Durwood\" here, following Neil's obituary and the Kings Historical Society index. WikiTree and MyTrees spell it \"Durward\". His Find a Grave memorial also uses the spelling 'Durward'.",
+  "parents": [
+   "wjt",
+   "jfm"
+  ],
+  "spouse": [
+   "hgh"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -610,18 +630,12 @@
     "https://www.findagrave.com/memorial/80687261"
    ]
   ],
+  "gen": 6,
+  "note": "Spelled \"Durwood\" here, following Neil's obituary and the Kings Historical Society index. WikiTree and MyTrees spell it \"Durward\". His Find a Grave memorial also uses the spelling 'Durward'. It links his children: Elwood (178779664), John Twining (196708926), Shirley Sturk (196708569) and Neil (283099045).",
   "highlights": []
  },
  {
   "id": "hgh",
-  "parents": [
-   "twinning",
-   "bessie"
-  ],
-  "spouse": [
-   "dbt"
-  ],
-  "gen": 6,
   "name": "Helen Gertrude (Haines) Tupper",
   "conf": "confirmed",
   "born": "28 Apr 1904",
@@ -629,7 +643,13 @@
   "grave": "Morristown Cemetery, Morristown, Kings Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "Tupper.",
+  "parents": [
+   "twinning",
+   "bessie"
+  ],
+  "spouse": [
+   "dbt"
+  ],
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -656,10 +676,19 @@
     "https://www.findagrave.com/memorial/97018579"
    ]
   ],
+  "gen": 6,
+  "note": " Brother (Find a Grave 97018579): Russell Alfred Haines (b. 1902), who married her sister-in-law Muriel B. Tupper.",
   "highlights": []
  },
  {
   "id": "jjs_noble",
+  "name": "Noble Richard Salsman",
+  "conf": "confirmed",
+  "born": "13 May 1904 (Waterville, Kings Co.)",
+  "died": "10 May 1988 (Berwick)",
+  "grave": "Berwick Cemetery, Berwick, Kings Co. NS (Main St. near Morse Lane)",
+  "graveconf": "confirmed",
+  "obit": "",
   "parents": [
    "emery",
    "addie"
@@ -668,15 +697,6 @@
    "sadie",
    "stella"
   ],
-  "gen": 6,
-  "name": "Noble Richard Salsman",
-  "conf": "confirmed",
-  "born": "13 May 1904 (Waterville, Kings Co.)",
-  "died": "10 May 1988 (Berwick)",
-  "grave": "Berwick Cemetery, Berwick, Kings Co. NS (Main St. near Morse Lane)",
-  "graveconf": "confirmed",
-  "obit": "",
-  "note": "He was a cooper (barrel maker). His first wife, Estella Beatrice \"Stella\" Burns (1908 to 1931; Find a Grave 180251988), died young.",
   "src": [
    [
     "Salsman register: Noble Richard Salsman",
@@ -695,9 +715,18 @@
     "https://www.findagrave.com/memorial/180252166"
    ]
   ],
+  "gen": 6,
+  "note": "He was a cooper (barrel maker). His first wife, Estella Beatrice \"Stella\" Burns (1908 to 1931; Find a Grave 180251988), died young. He married Sadie Belle Wentzell in Kentville on 23 Nov 1934, and they had 13 children, including Joy and her twin Joan.",
   "highlights": [
    {
     "text": "Cooper (barrel maker), per the register; in the 1921 census he was a cooper making barrels in Waterville",
+    "src": [
+     "Salsman register: Noble Richard Salsman",
+     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_152.html"
+    ]
+   },
+   {
+    "text": "Father of 13 children with Sadie Belle Wentzell",
     "src": [
      "Salsman register: Noble Richard Salsman",
      "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_152.html"
@@ -707,11 +736,6 @@
  },
  {
   "id": "jamesm",
-  "parents": [],
-  "spouse": [
-   "jennie"
-  ],
-  "gen": 6,
   "name": "James Murphy",
   "conf": "confirmed",
   "born": "Unknown",
@@ -719,7 +743,10 @@
   "grave": "Unknown. No Find a Grave memorial was found, and other transcriptions were searched without success.",
   "graveconf": "",
   "obit": "",
-  "note": "Stewart's father. No dates or burial found for James.",
+  "parents": [],
+  "spouse": [
+   "jennie"
+  ],
   "src": [
    [
     "Stewart D. Murphy obituary (Serenity FH)",
@@ -730,15 +757,12 @@
     "https://www.genealogybuff.com/canada/novascotia/webbbs_config.pl/noframes/read/710"
    ]
   ],
+  "gen": 6,
+  "note": "Stewart's father. His obituary and his brother Jack's both name the parents as James and Jennie (Kirk) Murphy. No dates or burial found for James.",
   "highlights": []
  },
  {
   "id": "jennie",
-  "parents": [],
-  "spouse": [
-   "jamesm"
-  ],
-  "gen": 6,
   "name": "Jennie (Kirk) Murphy",
   "conf": "confirmed",
   "born": "Unknown",
@@ -746,7 +770,10 @@
   "grave": "Unknown. No Find a Grave memorial was found, and other transcriptions were searched without success.",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "jamesm"
+  ],
   "src": [
    [
     "Stewart D. Murphy obituary (Serenity FH)",
@@ -757,27 +784,27 @@
     "https://www.genealogybuff.com/canada/novascotia/webbbs_config.pl/noframes/read/710"
    ]
   ],
+  "gen": 6,
+  "note": "",
   "highlights": []
  },
  {
   "id": "neilt",
-  "parents": [
-   "dbt",
-   "hgh"
-  ],
-  "spouse": [
-   "joy",
-   "L006"
-  ],
-  "gen": 7,
   "name": "Neil Carman Tupper",
   "conf": "confirmed",
   "born": "10 Feb 1933 (Morristown)",
   "died": "20 Jun 2022 (Kentville)",
   "grave": "Morristown Cemetery, Morristown, Kings Co. NS (interment per obituary) (also on Find a Grave)",
   "graveconf": "confirmed",
-  "obit": "Morristown farmer and businessman known for hogs, beef, apples, Christmas trees and firewood, and founder of Fox Mountain Camping Park. His funeral was held at Morristown Baptist Church.",
-  "note": "",
+  "obit": "Morristown farmer and businessman known for hogs, beef, apples, Christmas trees and firewood, and founder of Fox Mountain Camping Park. He was a lifelong hunter and woodsman, and said his 10 children were his proudest accomplishment. His funeral was held at Morristown Baptist Church.",
+  "parents": [
+   "dbt",
+   "hgh"
+  ],
+  "spouse": [
+   "joy",
+   "unkm"
+  ],
   "src": [
    [
     "Neil C. Tupper obituary (Middleton FH)",
@@ -792,6 +819,8 @@
     "https://www.findagrave.com/memorial/283099045"
    ]
   ],
+  "gen": 7,
+  "note": "",
   "highlights": [
    {
     "text": "Founded and ran Fox Mountain Camping Park, Morristown",
@@ -815,6 +844,13 @@
     ]
    },
    {
+    "text": "Father of 10 children",
+    "src": [
+     "Neil C. Tupper obituary (Middleton FH)",
+     "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+    ]
+   },
+   {
     "text": "Founded Fox Mountain Camping Park, 6128 Aylesford Road, Aylesford, in 1994 after running a hog farm and Christmas tree operation; started the Fox Mountain Bluegrass Festival and ran it for 20 years (park's own history, confirmed in substance by his obituary).",
     "src": [
      "Trailer Parks Canada, Fox Mountain Camping Park listing",
@@ -822,14 +858,14 @@
     ]
    },
    {
-    "text": "SaltWire (2019) named Neil and a living relative as owners of Fox Mountain Camping Park, home of the Fox Mountain Country Music Festival.",
+    "text": "SaltWire (2019) named Neil and Heidi Tupper as owners of Fox Mountain Camping Park, home of the Fox Mountain Country Music Festival.",
     "src": [
      "SaltWire, 'Leona Williams to perform at 2019 Fox Mountain Country Music Festival' (2019)",
      "https://www.saltwire.com/atlantic-canada/leona-williams-to-perform-at-2019-fox-mountain-country-music-festival-299675"
     ]
    },
    {
-    "text": "Still listed as a park contact with a living relative on the park's website.",
+    "text": "Still listed as a park contact with Heidi Tupper on the park's website.",
     "src": [
      "Fox Mountain Camping Park, Contact page",
      "https://foxmountaincampingpark.com/contact/"
@@ -839,6 +875,13 @@
  },
  {
   "id": "joy",
+  "name": "Joy Eldora (Salsman) Walsh",
+  "conf": "confirmed",
+  "born": "12 Mar 1935 (Waterville, Kings Co.)",
+  "died": "26 Nov 2013 (Valley Regional Hospital, Kentville)",
+  "grave": "Holy Cross Cemetery, Kentville, Kings Co. NS (her obituary said only \"private family burial\")",
+  "graveconf": "likely",
+  "obit": "Joy lived in Aylesford East. Her funeral was held at St. Joseph's Roman Catholic Church in Kentville, with a private family burial. She was survived by her husband Richard (Dick) Walsh, her four children with Neil Tupper, and 12 grandchildren, including Dustin.",
   "parents": [
    "jjs_noble",
    "sadie"
@@ -847,15 +890,6 @@
    "neilt",
    "dick"
   ],
-  "gen": 7,
-  "name": "Joy Eldora (Salsman) Walsh",
-  "conf": "confirmed",
-  "born": "12 Mar 1935 (Waterville, Kings Co.)",
-  "died": "26 Nov 2013 (Valley Regional Hospital, Kentville)",
-  "grave": "Holy Cross Cemetery, Kentville, Kings Co. NS (her obituary said only \"private family burial\")",
-  "graveconf": "likely",
-  "obit": "Joy lived in Aylesford East. Her funeral was held at St. Joseph's Roman Catholic Church in Kentville, with a private family burial.",
-  "note": "Born Salsman. The cemetery is tagged likely because the burial line on her Find a Grave page was cut off.",
   "src": [
    [
     "Joy Eldora Walsh obituary (White Family FH)",
@@ -874,6 +908,8 @@
     "https://www.findagrave.com/memorial/167630720"
    ]
   ],
+  "gen": 7,
+  "note": "Born Salsman. She was a twin: her twin sister was Joan (Mike) Mahovic. Her other siblings: Madelyn Wiles, Marilyn (Allan) Teal, Freda, Douglas, Gerald, Leo and Ronald Salsman, and half-brother Whiley Salsman. Died before her: sisters Sharon Teal and Katherine (in infancy), half-sister Pauline, brothers Calvin and Eugene, and half-brother Richard Salsman. The cemetery is tagged likely because the burial line on her Find a Grave page was cut off.",
   "highlights": [
    {
     "text": "Member of St. Joseph's Roman Catholic Church parish, Kentville (where her funeral was held)",
@@ -898,12 +934,6 @@
  },
  {
   "id": "shirley",
-  "parents": [
-   "dbt",
-   "hgh"
-  ],
-  "spouse": [],
-  "gen": 7,
   "name": "Shirley Elaine (Tupper) Sturk",
   "conf": "confirmed",
   "born": "Unknown",
@@ -911,7 +941,11 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [
+   "dbt",
+   "hgh"
+  ],
+  "spouse": [],
   "src": [
    [
     "Neil C. Tupper obituary (Middleton FH)",
@@ -926,24 +960,24 @@
     "https://www.findagrave.com/memorial/196708569"
    ]
   ],
+  "gen": 7,
+  "note": "Married Edmund Sturk.",
   "highlights": []
  },
  {
   "id": "johnt",
+  "name": "John Twining Tupper",
+  "conf": "confirmed",
+  "born": "09 Sep 1929 (Morristown)",
+  "died": "15 Dec 2017 (Alberta)",
+  "grave": "Maerz Cemetery, west of Three Hills, Alberta (buried 18 Dec 2017)",
+  "graveconf": "likely",
+  "obit": "Left school after grade 7 to work in the family orchard. In the 1950s he moved west to log on Vancouver Island and later settled in Three Hills, Alberta. He was a carver and violin maker, and kept a 1928 Model A for his whole life.",
   "parents": [
    "dbt",
    "hgh"
   ],
   "spouse": [],
-  "gen": 7,
-  "name": "John Twining Tupper",
-  "conf": "confirmed",
-  "born": "09 Sep 1929 (Morristown)",
-  "died": "15 Dec 2017 (Alberta)",
-  "grave": "Maerz Cemetery, west of Three Hills, Alberta",
-  "graveconf": "confirmed",
-  "obit": "Left school after grade 7 to work in the family orchard. In the 1950s he moved west to log on Vancouver Island and later settled in Three Hills, Alberta. He was a carver and violin maker, and kept a 1928 Model A for his whole life.",
-  "note": "",
   "src": [
    [
     "WikiTree: John Twining Tupper",
@@ -958,6 +992,8 @@
     "https://www.findagrave.com/memorial/196708926"
    ]
   ],
+  "gen": 7,
+  "note": "Married Elaine Velma Faris in 1959. Children: Nathan, Theodore, Gayle, Carol.",
   "highlights": [
    {
     "text": "Logged on Vancouver Island; drove a cement truck for 20 years; later worked for the county and on a seed farm in Three Hills, Alberta",
@@ -972,17 +1008,18 @@
      "WikiTree: John Twining Tupper",
      "https://www.wikitree.com/wiki/Tupper-1249"
     ]
+   },
+   {
+    "text": "Met Elaine Faris at a barn dance in 1957 and bought a 1928 Model A for $150 that year; married her in 1959.",
+    "src": [
+     "WikiTree: John Twining Tupper (Tupper-1249)",
+     "https://www.wikitree.com/wiki/Tupper-1249"
+    ]
    }
   ]
  },
  {
   "id": "elwood",
-  "parents": [
-   "dbt",
-   "hgh"
-  ],
-  "spouse": [],
-  "gen": 7,
   "name": "Elwood Belmont Tupper",
   "conf": "confirmed",
   "born": "Unknown",
@@ -990,7 +1027,11 @@
   "grave": "Unknown cemetery. A matching name appears in the Kings Historical Society Kings Co. cemetery index (it lists \"Elwood Belmont\" Tupper).",
   "graveconf": "likely",
   "obit": "",
-  "note": "",
+  "parents": [
+   "dbt",
+   "hgh"
+  ],
+  "spouse": [],
   "src": [
    [
     "Neil C. Tupper obituary (Middleton FH)",
@@ -1009,18 +1050,12 @@
     "https://www.findagrave.com/memorial/178779664"
    ]
   ],
+  "gen": 7,
+  "note": "",
   "highlights": []
  },
  {
   "id": "stewart",
-  "parents": [
-   "jamesm",
-   "jennie"
-  ],
-  "spouse": [
-   "jean"
-  ],
-  "gen": 7,
   "name": "Stewart Dean Murphy",
   "conf": "confirmed",
   "born": "c. 1930 (Berwick)",
@@ -1028,13 +1063,21 @@
   "grave": "Berwick Cemetery, Berwick, Kings Co. NS (graveside service per obituary). Berwick Cemetery is on Main Street, Berwick, near Morse Lane (johncardinal.com/kings/cem.htm).",
   "graveconf": "confirmed",
   "obit": "Born in Berwick, he worked for many years at the Berwick Bakery and later at the Kings County Rehabilitation Centre in Waterville. He loved sports, especially baseball and hockey.",
-  "note": "",
+  "parents": [
+   "jamesm",
+   "jennie"
+  ],
+  "spouse": [
+   "jean"
+  ],
   "src": [
    [
     "Stewart D. Murphy obituary (Serenity FH)",
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
    ]
   ],
+  "gen": 7,
+  "note": "His siblings Jack, Margaret Ogilvie and Hartley are now in the tree as separate people. \"Marj Murphy\", his sister-in-law, was Jack's widow (Marjorie Kelley).",
   "highlights": [
    {
     "text": "Worked for many years at the Berwick Bakery, then at the Kings County Rehabilitation Centre, Waterville",
@@ -1054,6 +1097,13 @@
  },
  {
   "id": "jean",
+  "name": "H. Jean (Doherty) Murphy",
+  "conf": "confirmed",
+  "born": "7 Jun 1935 (Berwick)",
+  "died": "28 Oct 2015 (Silvers Home for Seniors, Berwick)",
+  "grave": "Berwick Cemetery, Berwick, Kings Co. NS (interment per obituary). Berwick Cemetery is on Main Street, Berwick, near Morse Lane (johncardinal.com/kings/cem.htm).",
+  "graveconf": "confirmed",
+  "obit": "She worked as a waitress at Rice's Restaurant and Villa Lunch and in the kitchen at Grand View Manor. She then spent 20 years at the Kings Regional Rehabilitation Centre, working in dietary, as a personal care worker, and finally in laundry. She was a member of Berwick Baptist Church and the St. Eudora Rebekah Lodge, and was married to Stewart for 54 years.",
   "parents": [
    "jdoh",
    "lorna"
@@ -1061,15 +1111,6 @@
   "spouse": [
    "stewart"
   ],
-  "gen": 7,
-  "name": "H. Jean (Doherty) Murphy",
-  "conf": "confirmed",
-  "born": "7 Jun 1935 (Berwick)",
-  "died": "28 Oct 2015 (Silvers Home for Seniors, Berwick)",
-  "grave": "Berwick Cemetery, Berwick, Kings Co. NS (interment per obituary). Berwick Cemetery is on Main Street, Berwick, near Morse Lane (johncardinal.com/kings/cem.htm).",
-  "graveconf": "confirmed",
-  "obit": "She worked as a waitress at Rice's Restaurant and Villa Lunch and in the kitchen at Grand View Manor. She then spent 20 years at the Kings Regional Rehabilitation Centre, working in dietary, as a personal care worker, and finally in laundry.",
-  "note": "",
   "src": [
    [
     "H. Jean Murphy obituary (Middleton FH)",
@@ -1080,6 +1121,8 @@
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
    ]
   ],
+  "gen": 7,
+  "note": "Sisters: Joyce Ann Gould, Carol Hampsey, Frances (Laurie) Lowe, Madeline (Eugene) Sheffield. Died before her: brothers Johnny and Eddie, and sister Geraldine (in infancy).",
   "highlights": [
    {
     "text": "Waitress at Rice's Restaurant and Villa Lunch; worked in the kitchen at Grand View Manor",
@@ -1094,115 +1137,143 @@
      "H. Jean Murphy obituary (Middleton FH)",
      "https://www.middletonfuneralhome.com/obituaries/h-murphy"
     ]
+   },
+   {
+    "text": "Member of Berwick Baptist Church, the MacPherson Auxiliary, the South Berwick Women's Institute, and St. Eudora Rebekah Lodge No. 43",
+    "src": [
+     "H. Jean Murphy obituary (Middleton FH)",
+     "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+    ]
    }
   ]
  },
  {
-  "id": "L001",
-  "parents": [
-   "L007"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Hiltz",
+  "id": "cz0",
+  "name": "Kimberly Hiltz",
   "conf": "confirmed",
   "born": "",
   "died": "Living",
-  "grave": "",
+  "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa0"
+  ],
+  "spouse": [],
+  "src": [
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ]
+  ],
+  "gen": 9,
+  "note": "First cousin (child of Cheryl and Randy Hiltz).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L002",
-  "parents": [
-   "L007"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Hiltz",
+  "id": "cz1",
+  "name": "Jeremy Hiltz",
   "conf": "confirmed",
   "born": "",
   "died": "Living",
-  "grave": "",
+  "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa0"
+  ],
+  "spouse": [],
+  "src": [
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ]
+  ],
+  "gen": 9,
+  "note": "First cousin (child of Cheryl and Randy Hiltz).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L003",
-  "parents": [
-   "L007"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Hiltz",
+  "id": "cz2",
+  "name": "Aaron Hiltz",
   "conf": "confirmed",
   "born": "",
   "died": "Living",
-  "grave": "",
+  "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa0"
+  ],
+  "spouse": [],
+  "src": [
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ]
+  ],
+  "gen": 9,
+  "note": "First cousin (child of Cheryl and Randy Hiltz).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L004",
-  "parents": [
-   "L007"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Hiltz",
+  "id": "cz3",
+  "name": "Sara Hiltz",
   "conf": "confirmed",
   "born": "",
   "died": "Living",
-  "grave": "",
+  "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa0"
+  ],
+  "spouse": [],
+  "src": [
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ]
+  ],
+  "gen": 9,
+  "note": "First cousin (child of Cheryl and Randy Hiltz).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L005",
-  "parents": [
-   "L008",
-   "L009"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Tupper",
+  "id": "dustin",
+  "name": "Dustin James Tupper",
   "conf": "confirmed",
   "born": "",
   "died": "Living",
-  "grave": "",
+  "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "david",
+   "marlene"
+  ],
+  "spouse": [],
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ],
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
+  "note": "Joy Walsh's 2013 obituary lists 'Dustin ... Brother: Kyle Tupper. H. Jean Murphy's 2015 obituary also lists Dustin as a grandchild.",
   "highlights": [],
   "living": true
  },
  {
   "id": "sadie",
-  "parents": [
-   "jaw",
-   "ilb"
-  ],
-  "spouse": [
-   "jjs_noble"
-  ],
-  "gen": 6,
   "name": "Sadie Belle (Wentzell) Salsman",
   "conf": "confirmed",
   "born": "13 Apr 1913 (Newburne, Lunenburg Co.)",
@@ -1210,7 +1281,13 @@
   "grave": "Berwick Cemetery, Berwick, Kings Co. NS (Main St. near Morse Lane)",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "Joy's mother, per Joy's obituary. Conflict on her birthplace: Find a Grave says Maplewood, Lunenburg Co.; the Salsman register says Newburne, Lunenburg Co.",
+  "parents": [
+   "jaw",
+   "ilb"
+  ],
+  "spouse": [
+   "jjs_noble"
+  ],
   "src": [
    [
     "Joy Eldora Walsh obituary (White Family FH)",
@@ -1233,15 +1310,12 @@
     "https://www.findagrave.com/memorial/180252102"
    ]
   ],
+  "gen": 6,
+  "note": "Joy's mother, per Joy's obituary. Conflict on her birthplace: Find a Grave says Maplewood, Lunenburg Co.; the Salsman register says Newburne, Lunenburg Co.",
   "highlights": []
  },
  {
   "id": "dick",
-  "parents": [],
-  "spouse": [
-   "joy"
-  ],
-  "gen": 7,
   "name": "Richard John \"Dick\" Walsh",
   "conf": "confirmed",
   "born": "1939",
@@ -1249,7 +1323,10 @@
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "",
+  "parents": [],
+  "spouse": [
+   "joy"
+  ],
   "src": [
    [
     "Joy Eldora Walsh obituary (White Family FH)",
@@ -1260,333 +1337,462 @@
     "https://www.findagrave.com/memorial/257106406"
    ]
   ],
+  "gen": 7,
+  "note": "Joy's second husband.",
   "highlights": []
  },
  {
-  "id": "L006",
+  "id": "unkm",
+  "name": "Mother of Neil's other 6 children (name not known)",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [],
   "spouse": [
    "neilt"
   ],
+  "src": [],
   "gen": 7,
-  "name": "Living",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Her name is not in any source found.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L007",
+  "id": "pa0",
+  "name": "Cheryl Judy (Tupper) Hiltz",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
    "joy"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ],
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ],
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Hiltz",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Rev. Randy (Randolph Wallace) Hiltz. Children: Kimberly, Jeremy, Aaron, Sara. Child of Neil and Joy (confirmed by Joy's obituary).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L008",
+  "id": "david",
+  "name": "David John Tupper",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
    "joy"
   ],
   "spouse": [
-   "L009"
+   "marlene"
+  ],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ],
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ],
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
   ],
   "gen": 8,
-  "name": "Living Tupper",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Of Lake Paul, Kings Co. His first wife was Sandra Lee Connors.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L009",
+  "id": "marlene",
+  "name": "Marlene (Murphy) Tupper",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "stewart",
    "jean"
   ],
   "spouse": [
-   "L008"
+   "david"
+  ],
+  "src": [
+   [
+    "Stewart D. Murphy obituary (Serenity FH)",
+    "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ],
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ],
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
   ],
   "gen": 8,
-  "name": "Living Tupper",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
   "note": "",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L010",
+  "id": "pa1",
+  "name": "Sonja Dale (Tupper) Stewart",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
    "joy"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ],
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ],
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Stewart",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Ron Stewart; lives in Stratford, PEI. Child of Neil and Joy (confirmed by Joy's obituary).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L011",
+  "id": "pa7",
+  "name": "Troy Neil Tupper",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
    "joy"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ],
+   [
+    "Salsman register (genealogy-paulsen.org)",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr02/rr02_075.html"
+   ],
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Tupper",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Michelle MacDonald. Child of Neil and Joy (confirmed by Joy's obituary).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L012",
+  "id": "pa2",
+  "name": "Tamara Tupper",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
-   "L006"
+   "unkm"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Tupper",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Partner: Sam Field. Their son Walker Daniel Field died before Neil (2022).",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L013",
+  "id": "pa3",
+  "name": "Billiejo (Tupper) Keddy",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
-   "L006"
+   "unkm"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Keddy",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Ben Keddy.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L014",
+  "id": "pa4",
+  "name": "Crystal (Tupper) Allen",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
-   "L006"
+   "unkm"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Allen",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Wade Allen.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L015",
+  "id": "pa5",
+  "name": "Heidi Tupper",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
-   "L006"
+   "unkm"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Tupper",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
-  "highlights": [],
+  "note": "Partner: Josh Schofield.",
+  "highlights": [
+   {
+    "text": "Named with Neil as a co-owner of Fox Mountain Camping Park (SaltWire, 2019).",
+    "src": [
+     "SaltWire, 'Leona Williams to perform at 2019 Fox Mountain Country Music Festival' (2019)",
+     "https://www.saltwire.com/atlantic-canada/leona-williams-to-perform-at-2019-fox-mountain-country-music-festival-299675"
+    ]
+   }
+  ],
   "living": true
  },
  {
-  "id": "L016",
+  "id": "pa6",
+  "name": "Virginia Fynes",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
-   "L006"
+   "unkm"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Fynes",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
   "note": "",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L017",
+  "id": "pa8",
+  "name": "Neil Shannon Tupper",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2022)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "neilt",
-   "L006"
+   "unkm"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Neil C. Tupper obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituary/neil-tupper"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Tupper",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Lyndsay.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L018",
+  "id": "ma0",
+  "name": "Judy (Murphy) Cudmore",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2009)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "stewart",
    "jean"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Stewart D. Murphy obituary (Serenity FH)",
+    "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Cudmore",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Martin Cudmore; lives in Aylesford.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L019",
+  "id": "ma1",
+  "name": "James Murphy",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2009)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "stewart",
    "jean"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Stewart D. Murphy obituary (Serenity FH)",
+    "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Murphy",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Lives in Morristown.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L020",
+  "id": "ma2",
+  "name": "David Murphy",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2009)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "stewart",
    "jean"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Stewart D. Murphy obituary (Serenity FH)",
+    "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ]
+  ],
   "gen": 8,
-  "name": "Living Murphy",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Marg; lives in Wilmot.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "L021",
+  "id": "ma3",
+  "name": "Barbara (Murphy) MacDonald",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Living (as of 2009)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "stewart",
    "jean"
   ],
   "spouse": [],
+  "src": [
+   [
+    "Stewart D. Murphy obituary (Serenity FH)",
+    "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ]
+  ],
   "gen": 8,
-  "name": "Living MacDonald",
-  "conf": "confirmed",
-  "born": "",
-  "died": "Living",
-  "grave": "",
-  "graveconf": "",
-  "obit": "",
-  "src": [],
-  "note": "",
+  "note": "Married Mark MacDonald; lives in Morristown.",
   "highlights": [],
   "living": true
  },
  {
-  "id": "jdoh",
+  "born": "1 Jun 1914 (Chipman Brook, Kings Co.)",
+  "died": "4 Apr 2004 (Berwick)",
+  "grave": "United Baptist Cemetery, Black Rock, Kings Co. NS",
+  "graveconf": "confirmed",
+  "obit": "",
   "parents": [
    "gad",
    "eaf"
@@ -1594,15 +1800,10 @@
   "spouse": [
    "lorna"
   ],
-  "gen": 6,
+  "note": "H. Jean Murphy's father. Her obituary calls him 'James A.'",
+  "id": "jdoh",
   "name": "James Alfred \"Jim\" Doherty",
   "conf": "confirmed",
-  "born": "1 Jun 1914 (Chipman Brook, Kings Co.)",
-  "died": "4 Apr 2004 (Berwick)",
-  "grave": "United Baptist Cemetery, Black Rock, Kings Co. NS",
-  "graveconf": "confirmed",
-  "obit": "",
-  "note": "H. Jean Murphy's father. Her obituary calls him 'James A.'",
   "src": [
    [
     "H. Jean Murphy obituary (Middleton FH)",
@@ -1613,23 +1814,23 @@
     "https://www.findagrave.com/memorial/190420192"
    ]
   ],
+  "gen": 6,
   "highlights": []
  },
  {
-  "id": "lorna",
-  "parents": [],
-  "spouse": [
-   "jdoh"
-  ],
-  "gen": 6,
-  "name": "Lorna Gertrude (Hamilton) Doherty",
-  "conf": "confirmed",
   "born": "20 Sep 1916 (Grafton, Kings Co.)",
   "died": "1981",
   "grave": "United Baptist Cemetery, Black Rock, Kings Co. NS",
   "graveconf": "confirmed",
   "obit": "",
+  "parents": [],
+  "spouse": [
+   "jdoh"
+  ],
   "note": "H. Jean Murphy's mother. Jean was born in 1935, when Lorna was about 18.",
+  "id": "lorna",
+  "name": "Lorna Gertrude (Hamilton) Doherty",
+  "conf": "confirmed",
   "src": [
    [
     "H. Jean Murphy obituary (Middleton FH)",
@@ -1640,107 +1841,132 @@
     "https://www.findagrave.com/memorial/235353792"
    ]
   ],
+  "gen": 6,
   "highlights": []
  },
  {
-  "id": "L022",
-  "parents": [
-   "L008",
-   "L009"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Tupper",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "david",
+   "marlene"
+  ],
+  "spouse": [],
+  "note": "Named as a grandchild in both Joy Walsh's (2013) and H. Jean Murphy's (2015) obituaries.",
+  "id": "kyle",
+  "name": "Kyle Tupper",
+  "conf": "confirmed",
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ],
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L023",
-  "parents": [
-   "L011"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Tupper",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa7"
+  ],
+  "spouse": [],
+  "note": "First cousin.",
+  "id": "c_carman",
+  "name": "Carman Tupper",
+  "conf": "confirmed",
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L024",
-  "parents": [
-   "L011"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Tupper",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa7"
+  ],
+  "spouse": [],
+  "note": "First cousin.",
+  "id": "c_evan",
+  "name": "Evan Tupper",
+  "conf": "confirmed",
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L025",
-  "parents": [
-   "L011"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Tupper",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa7"
+  ],
+  "spouse": [],
+  "note": "First cousin.",
+  "id": "c_william",
+  "name": "William Tupper",
+  "conf": "confirmed",
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "jack",
-  "parents": [
-   "jamesm",
-   "jennie"
-  ],
-  "spouse": [],
-  "gen": 7,
-  "name": "John (Jack) Elwood Murphy",
-  "conf": "confirmed",
   "born": "c. 1920 (South Berwick)",
   "died": "16 Aug 1995 (Valley Regional Hospital, Kentville)",
   "grave": "Berwick Cemetery (private family burial, per obituary). Berwick Cemetery is on Main Street, Berwick, near Morse Lane (johncardinal.com/kings/cem.htm).",
   "graveconf": "confirmed",
   "obit": "Served overseas from 1941 to 1945 as a gunner in WWII and was wounded in action. He was a life member and past president of Royal Canadian Legion Branch 69 in Berwick. He ran a garage and restaurant in South Berwick and retired as a foreman with the Department of Highways.",
-  "note": "",
+  "parents": [
+   "jamesm",
+   "jennie"
+  ],
+  "spouse": [],
+  "note": "Wife: Marjorie (Marj) Kelley. Daughters: Sharon (Bob) Trefry and Jacqueline (Gary) Roop. Grandchildren: Kellie and Kevin Trefry, Jennifer and Jonathan Roop. He had two infant sons who died before him.",
+  "id": "jack",
+  "name": "John (Jack) Elwood Murphy",
+  "conf": "confirmed",
   "src": [
    [
     "John (Jack) Elwood Murphy obituary 1995 (genealogybuff transcription)",
     "https://www.genealogybuff.com/canada/novascotia/webbbs_config.pl/noframes/read/710"
    ]
   ],
+  "gen": 7,
   "highlights": [
    {
     "text": "WWII: served overseas 1941 to 1945 as a gunner with an anti-aircraft battery; wounded in action",
@@ -1773,21 +1999,20 @@
   ]
  },
  {
-  "id": "margo",
+  "born": "Unknown",
+  "died": "Before 1995",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "jamesm",
    "jennie"
   ],
   "spouse": [],
-  "gen": 7,
+  "note": "Her obituary was not found.",
+  "id": "margo",
   "name": "Margaret (Murphy) Ogilvie",
   "conf": "confirmed",
-  "born": "Unknown",
-  "died": "Before 1995",
-  "grave": "Unknown",
-  "graveconf": "",
-  "obit": "",
-  "note": "Her obituary was not found.",
   "src": [
    [
     "John (Jack) Elwood Murphy obituary 1995 (genealogybuff transcription)",
@@ -1798,24 +2023,24 @@
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
    ]
   ],
+  "gen": 7,
   "highlights": []
  },
  {
-  "id": "hartley",
+  "born": "Unknown",
+  "died": "Before 1995",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
   "parents": [
    "jamesm",
    "jennie"
   ],
   "spouse": [],
-  "gen": 7,
+  "note": "His obituary was not found.",
+  "id": "hartley",
   "name": "Hartley Murphy",
   "conf": "confirmed",
-  "born": "Unknown",
-  "died": "Before 1995",
-  "grave": "Unknown",
-  "graveconf": "",
-  "obit": "",
-  "note": "His obituary was not found.",
   "src": [
    [
     "John (Jack) Elwood Murphy obituary 1995 (genealogybuff transcription)",
@@ -1826,10 +2051,15 @@
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
    ]
   ],
+  "gen": 7,
   "highlights": []
  },
  {
-  "id": "emery",
+  "born": "9 Oct 1881 (New Ross, Lunenburg Co.)",
+  "died": "20 Sep 1965 (Berwick)",
+  "grave": "Berwick Cemetery, Berwick, Kings Co. NS (Main St. near Morse Lane)",
+  "graveconf": "confirmed",
+  "obit": "",
   "parents": [
    "dhs",
    "spl"
@@ -1837,15 +2067,10 @@
   "spouse": [
    "addie"
   ],
-  "gen": 5,
+  "note": "He was a cooper and farmer at Cornwallis and later Waterville. He married Addie in Kentville on 9 Nov 1903 and they had 11 children. Earlier generations in the register: David Henry (Daniel) Saltzman, then Henry Jollymore, George Michael Salzmann, Casper Friedrich, and Isac. Conflicts: his middle name is 'Albert' on Find a Grave and 'Alfred' in the registers. His birthplace is New Ross on Find a Grave and Norwood Settlement in the registers (both in Lunenburg Co.).",
+  "id": "emery",
   "name": "Emery Albert (Alfred) Salsman",
   "conf": "confirmed",
-  "born": "9 Oct 1881 (New Ross, Lunenburg Co.)",
-  "died": "20 Sep 1965 (Berwick)",
-  "grave": "Berwick Cemetery, Berwick, Kings Co. NS (Main St. near Morse Lane)",
-  "graveconf": "confirmed",
-  "obit": "",
-  "note": "He was a cooper and farmer at Cornwallis and later Waterville. Earlier generations in the register: David Henry (a living relative) Saltzman, then Henry Jollymore, George Michael Salzmann, Casper Friedrich, and Isac. Conflicts: his middle name is 'Albert' on Find a Grave and 'Alfred' in the registers. His birthplace is New Ross on Find a Grave and Norwood Settlement in the registers (both in Lunenburg Co.).",
   "src": [
    [
     "Salsman register: Emery Alfred Salsman family",
@@ -1856,6 +2081,7 @@
     "https://www.findagrave.com/memorial/276727851"
    ]
   ],
+  "gen": 5,
   "highlights": [
    {
     "text": "Cooper and farmer at Cornwallis (1911 census) and Waterville (1921 census), where the family owned its home",
@@ -1863,24 +2089,33 @@
      "Salsman register: Emery Alfred Salsman family",
      "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_052.html"
     ]
+   },
+   {
+    "text": "Cooper at Cornwallis in 1911; farmer at Waterville in 1921, when sons Noble and Roy were coopers making barrels (census, via Saltzman Register).",
+    "src": [
+     "Saltzman Register (genealogy-paulsen.org), Sixth Generation, #325",
+     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_052.html"
+    ]
    }
   ]
  },
  {
-  "id": "addie",
-  "parents": [],
-  "spouse": [
-   "emery"
-  ],
-  "gen": 5,
-  "name": "Addie S. (Rogers) Salsman",
-  "conf": "confirmed",
   "born": "16 Nov 1884 (Harbourville, Kings Co.)",
   "died": "1945",
   "grave": "Berwick Cemetery, Berwick, Kings Co. NS (Main St. near Morse Lane)",
   "graveconf": "confirmed",
   "obit": "",
-  "note": "",
+  "parents": [
+   "hsr",
+   "ll"
+  ],
+  "spouse": [
+   "emery"
+  ],
+  "note": "Daughter of Henry Stephen Rogers and Lillian Lightfoot.",
+  "id": "addie",
+  "name": "Addie S. (Rogers) Salsman",
+  "conf": "confirmed",
   "src": [
    [
     "Salsman register: Emery Alfred Salsman family",
@@ -1889,25 +2124,32 @@
    [
     "Find a Grave: Addie S Rogers Salsman",
     "https://www.findagrave.com/memorial/276727868"
+   ],
+   [
+    "Saltzman Register (genealogy-paulsen.org), Sixth Generation, #325",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_052.html"
    ]
   ],
+  "gen": 5,
   "highlights": []
  },
  {
-  "id": "jaw",
-  "parents": [],
+  "born": "26 Jun 1883 (Newburne, Lunenburg Co.)",
+  "died": "2 May 1963 (Maplewood, Lunenburg Co.)",
+  "grave": "Newburne, Lunenburg Co. (buried 4 May 1963)",
+  "graveconf": "likely",
+  "obit": "",
+  "parents": [
+   "jhw",
+   "isv"
+  ],
   "spouse": [
    "ilb"
   ],
-  "gen": 5,
+  "note": "He married Ida in New Germany, Lunenburg Co., on 28 Dec 1910. Their children included Gilbert, Sadie Belle, Carrie, Frederick, Alice, Douglas and Clyde.",
+  "id": "jaw",
   "name": "John Amos Wentzell",
   "conf": "confirmed",
-  "born": "26 Jun 1883",
-  "died": "2 May 1963",
-  "grave": "Unknown",
-  "graveconf": "",
-  "obit": "",
-  "note": "",
   "src": [
    [
     "Boehner register: John Amos Wentzell and Ida Louise Beck",
@@ -1918,23 +2160,34 @@
     "https://www.findagrave.com/memorial/85817287"
    ]
   ],
-  "highlights": []
+  "gen": 5,
+  "highlights": [
+   {
+    "text": "Farmer, carpenter and woodsman (Boehner Register).",
+    "src": [
+     "Boehner Register (genealogy-paulsen.org), #2918",
+     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Boehner_Register/rr02/rr02_208.html"
+    ]
+   }
+  ]
  },
  {
-  "id": "ilb",
-  "parents": [],
+  "born": "21 Apr 1894 (Newburne, Lunenburg Co.)",
+  "died": "5 Sep 1959 (Maplewood, Lunenburg Co.)",
+  "grave": "Newburne, Lunenburg Co.",
+  "graveconf": "likely",
+  "obit": "",
+  "parents": [
+   "hbb",
+   "asv"
+  ],
   "spouse": [
    "jaw"
   ],
-  "gen": 5,
+  "note": "Find a Grave spells her name 'Louisa'; the registers have 'Louise'.",
+  "id": "ilb",
   "name": "Ida Louisa (Beck) Wentzell",
   "conf": "confirmed",
-  "born": "21 Apr 1894",
-  "died": "5 Sep 1959",
-  "grave": "Unknown",
-  "graveconf": "",
-  "obit": "",
-  "note": "Find a Grave spells her name 'Louisa'; the registers have 'Louise'.",
   "src": [
    [
     "Boehner register: John Amos Wentzell and Ida Louise Beck",
@@ -1945,23 +2198,23 @@
     "https://www.findagrave.com/memorial/85817400"
    ]
   ],
+  "gen": 5,
   "highlights": []
  },
  {
-  "id": "esm",
-  "parents": [],
-  "spouse": [
-   "aag"
-  ],
-  "gen": 4,
-  "name": "Elisha Spinney Morse",
-  "conf": "likely",
   "born": "20 Dec 1839 (Harmony)",
   "died": "6 Feb 1914 (Millville, NS)",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "The Spinney line goes back to Samuel Spinney of Kittery, Maine (b. 1658), per GenoPro.",
+  "parents": [],
+  "spouse": [
+   "aag"
+  ],
+  "note": "Son of Jonathan Morse and Elizabeth (Eliza) Spinney (1804 to 1885). The Spinney line goes back to Samuel Spinney of Kittery, Maine (b. 1658), per GenoPro.",
+  "id": "esm",
+  "name": "Elisha Spinney Morse",
+  "conf": "likely",
   "src": [
    [
     "GenoPro tree: Jessie F. Morse",
@@ -1972,23 +2225,23 @@
     "https://freepages.rootsweb.com/~marjoriesplace/genealogy/html/d0002/g0000055.html"
    ]
   ],
+  "gen": 4,
   "highlights": []
  },
  {
-  "id": "aag",
-  "parents": [],
-  "spouse": [
-   "esm"
-  ],
-  "gen": 4,
-  "name": "Alalia Adelia (Graves) Morse",
-  "conf": "likely",
   "born": "14 Oct 1856",
   "died": "Unknown",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
+  "parents": [],
+  "spouse": [
+   "esm"
+  ],
   "note": "The birth year 1856 would make her about 19 when Jessie was born in 1876. Please verify.",
+  "id": "aag",
+  "name": "Alalia Adelia (Graves) Morse",
+  "conf": "likely",
   "src": [
    [
     "GenoPro tree: Jessie F. Morse",
@@ -1999,218 +2252,260 @@
     "https://freepages.rootsweb.com/~marjoriesplace/genealogy/html/d0002/g0000055.html"
    ]
   ],
+  "gen": 4,
   "highlights": []
  },
  {
-  "id": "L026",
-  "parents": [
-   "L010"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Stewart",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa1"
+  ],
+  "spouse": [],
+  "note": "Named as Joy's grandchild.",
+  "id": "cs_katelyn",
+  "name": "Katelyn Stewart",
+  "conf": "confirmed",
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L027",
-  "parents": [
-   "L010"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Stewart",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa1"
+  ],
+  "spouse": [],
+  "note": "Named as Joy's grandchild.",
+  "id": "cs_emma",
+  "name": "Emma Stewart",
+  "conf": "confirmed",
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L028",
-  "parents": [
-   "L010"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Stewart",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "pa1"
+  ],
+  "spouse": [],
+  "note": "Named as Joy's grandchild.",
+  "id": "cs_brianna",
+  "name": "Brianna Stewart",
+  "conf": "confirmed",
+  "src": [
+   [
+    "Joy Eldora Walsh obituary (White Family FH)",
+    "https://www.whitefamilyfuneralhome.com/obituaries/84042"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L029",
-  "parents": [
-   "L018"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Cudmore",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "ma0"
+  ],
+  "spouse": [],
+  "note": "Named as H. Jean Murphy's grandchild.",
+  "id": "cud_karen",
+  "name": "Karen Cudmore",
+  "conf": "confirmed",
+  "src": [
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L030",
-  "parents": [
-   "L018"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Cudmore",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "ma0"
+  ],
+  "spouse": [],
+  "note": "Named as H. Jean Murphy's grandchild.",
+  "id": "cud_daniel",
+  "name": "Daniel Cudmore",
+  "conf": "confirmed",
+  "src": [
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L031",
-  "parents": [
-   "L018"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Cudmore",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "ma0"
+  ],
+  "spouse": [],
+  "note": "Named as H. Jean Murphy's grandchild.",
+  "id": "cud_robert",
+  "name": "Robert Cudmore",
+  "conf": "confirmed",
+  "src": [
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L032",
-  "parents": [
-   "L018"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living Cudmore",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "ma0"
+  ],
+  "spouse": [],
+  "note": "Named as H. Jean Murphy's grandchild.",
+  "id": "cud_melanie",
+  "name": "Melanie Cudmore",
+  "conf": "confirmed",
+  "src": [
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L033",
-  "parents": [
-   "L021"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living MacDonald",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "ma3"
+  ],
+  "spouse": [],
+  "note": "Named as H. Jean Murphy's grandchild.",
+  "id": "mac_krista",
+  "name": "Krista MacDonald",
+  "conf": "confirmed",
+  "src": [
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "L034",
-  "parents": [
-   "L021"
-  ],
-  "spouse": [],
-  "gen": 9,
-  "name": "Living MacDonald",
-  "conf": "confirmed",
   "born": "",
   "died": "Living",
   "grave": "",
   "graveconf": "",
   "obit": "",
-  "src": [],
-  "note": "",
+  "parents": [
+   "ma3"
+  ],
+  "spouse": [],
+  "note": "Named as H. Jean Murphy's grandchild.",
+  "id": "mac_colin",
+  "name": "Colin MacDonald",
+  "conf": "confirmed",
+  "src": [
+   [
+    "H. Jean Murphy obituary (Middleton FH)",
+    "https://www.middletonfuneralhome.com/obituaries/h-murphy"
+   ]
+  ],
+  "gen": 9,
   "highlights": [],
   "living": true
  },
  {
-  "id": "mercie",
-  "parents": [
-   "lpt",
-   "eat"
-  ],
-  "spouse": [],
-  "gen": 5,
-  "name": "Mercie Salome (Tupper) Ford",
-  "conf": "confirmed",
   "born": "1866",
   "died": "1955",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "Her grave location was not provided.",
+  "parents": [
+   "lpt",
+   "eat"
+  ],
+  "spouse": [],
+  "note": "Child of Lot Phinney Tupper (linked on his Find a Grave memorial), so a sister of William John Tupper. Her grave location was not provided.",
   "src": [
    [
     "Find a Grave: Mercie Salome Tupper Ford",
     "https://www.findagrave.com/memorial/178261811"
    ]
   ],
+  "id": "mercie",
+  "name": "Mercie Salome (Tupper) Ford",
+  "conf": "confirmed",
+  "gen": 5,
   "highlights": []
  },
  {
-  "id": "stella",
-  "parents": [],
-  "spouse": [
-   "jjs_noble"
-  ],
-  "gen": 6,
-  "name": "Estella Beatrice \"Stella\" (Burns) Salsman",
-  "conf": "confirmed",
   "born": "13 Jan 1908 (Kingston, Kings Co.)",
   "died": "28 Oct 1931 (Waterville)",
   "grave": "Berwick (buried 30 Oct 1931, per the Salsman register)",
   "graveconf": "likely",
   "obit": "",
-  "note": "Noble's first wife.",
+  "parents": [],
+  "spouse": [
+   "jjs_noble"
+  ],
+  "note": "Noble's first wife. No children of theirs are recorded in the tree.",
   "src": [
    [
     "Find a Grave: Estella Beatrice Burns",
@@ -2221,23 +2516,26 @@
     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_152.html"
    ]
   ],
+  "id": "stella",
+  "name": "Estella Beatrice \"Stella\" (Burns) Salsman",
+  "conf": "confirmed",
+  "gen": 6,
   "highlights": []
  },
  {
-  "id": "dhs",
-  "parents": [],
-  "spouse": [
-   "spl"
-  ],
-  "gen": 4,
-  "name": "David Henry (Daniel) Saltzman",
-  "conf": "confirmed",
-  "born": "Unknown",
-  "died": "Unknown",
+  "born": "14 Nov 1855 (Norwood Settlement, Lunenburg Co.)",
+  "died": "4 Mar 1941 (Waterville, Kings Co.)",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "Emery's father. Per the register, his line goes back: Henry Jollymore, then George Michael Salzmann, Casper Friedrich, and Isac (in Nova Scotia from 1720).",
+  "parents": [
+   "hjs",
+   "rhiltz"
+  ],
+  "spouse": [
+   "spl"
+  ],
+  "note": "Emery's father. Per the register, his line goes back: Henry Jollymore, then George Michael Salzmann, Casper Friedrich, and Isac (in Nova Scotia from 1720). Married Sarah Priscilla Legge 3 Jan 1881 at New Ross; later married Gladys Mildred Banks (1907) and Orinda Sanford (1909). Cooper, farmer and carpenter (Saltzman Register, confirmed).",
   "src": [
    [
     "Find a Grave: David Henry Saltzman",
@@ -2246,47 +2544,58 @@
    [
     "Salsman register: Emery Alfred Salsman family",
     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_052.html"
+   ],
+   [
+    "Saltzman Register (genealogy-paulsen.org), Fifth Generation, #84",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_017.html"
    ]
   ],
+  "id": "dhs",
+  "name": "David Henry (Daniel) Saltzman",
+  "conf": "confirmed",
+  "gen": 4,
   "highlights": []
  },
  {
-  "id": "spl",
-  "parents": [],
-  "spouse": [
-   "dhs"
-  ],
-  "gen": 4,
-  "name": "Sarah Priscilla (Legge) Saltzman",
-  "conf": "confirmed",
-  "born": "Unknown",
-  "died": "Unknown",
+  "born": "16 May 1857 (Lake Settlement, Sherbrooke, Lunenburg Co.)",
+  "died": "Before 1907",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
+  "parents": [
+   "gel",
+   "mab"
+  ],
+  "spouse": [
+   "dhs"
+  ],
   "note": "Emery's mother.",
   "src": [
    [
     "Find a Grave: Sarah Priscilla Legge",
     "https://www.findagrave.com/memorial/167291927"
+   ],
+   [
+    "Saltzman Register (genealogy-paulsen.org), Fifth Generation, #84",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_017.html"
    ]
   ],
+  "id": "spl",
+  "name": "Sarah Priscilla (Legge) Saltzman",
+  "conf": "confirmed",
+  "gen": 4,
   "highlights": []
  },
  {
-  "id": "gad",
-  "parents": [],
-  "spouse": [
-   "eaf"
-  ],
-  "gen": 5,
-  "name": "Grant Alfred Doherty",
-  "conf": "confirmed",
   "born": "1881",
   "died": "1948",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
+  "parents": [],
+  "spouse": [
+   "eaf"
+  ],
   "note": "Jim Doherty's father, per Find a Grave. His grave was not provided.",
   "src": [
    [
@@ -2294,22 +2603,22 @@
     "https://www.findagrave.com/memorial/190420192"
    ]
   ],
+  "id": "gad",
+  "name": "Grant Alfred Doherty",
+  "conf": "confirmed",
+  "gen": 5,
   "highlights": []
  },
  {
-  "id": "eaf",
-  "parents": [],
-  "spouse": [
-   "gad"
-  ],
-  "gen": 5,
-  "name": "Elsie Agusta (Fredericks) Doherty",
-  "conf": "confirmed",
   "born": "1886",
   "died": "1958",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
+  "parents": [],
+  "spouse": [
+   "gad"
+  ],
   "note": "Jim Doherty's mother, per Find a Grave. Name spelled 'Agusta' as on the memorial.",
   "src": [
    [
@@ -2317,24 +2626,24 @@
     "https://www.findagrave.com/memorial/190420192"
    ]
   ],
+  "id": "eaf",
+  "name": "Elsie Agusta (Fredericks) Doherty",
+  "conf": "confirmed",
+  "gen": 5,
   "highlights": []
  },
  {
-  "id": "russellh",
-  "parents": [
-   "twinning",
-   "bessie"
-  ],
-  "spouse": [],
-  "gen": 6,
-  "name": "Russell Alfred Haines",
-  "conf": "confirmed",
   "born": "16 Dec 1902 (Farmington, Lunenburg Co.)",
   "died": "Unknown",
   "grave": "Unknown",
   "graveconf": "",
   "obit": "",
-  "note": "Tupper (b.",
+  "parents": [
+   "twinning",
+   "bessie"
+  ],
+  "spouse": [],
+  "note": "Helen Gertrude's brother. He married Muriel B. Tupper (b. 1904, Morristown), Durwood's sister. Children: Edmund Russell, Clinton Curtis, Rosamond Louise, Stanley Lewis.",
   "src": [
    [
     "Find a Grave: Russell Alfred Haines",
@@ -2345,6 +2654,240 @@
     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Hiltz_Register/rr04/rr04_222.html"
    ]
   ],
+  "id": "russellh",
+  "name": "Russell Alfred Haines",
+  "conf": "confirmed",
+  "gen": 6,
+  "highlights": []
+ },
+ {
+  "id": "hjs",
+  "name": "Henry Jollymore Saltzman",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "rhiltz"
+  ],
+  "src": [
+   [
+    "Saltzman Register (genealogy-paulsen.org), Fifth Generation, #84",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_017.html"
+   ]
+  ],
+  "gen": 3,
+  "note": "Father of David Henry (Daniel) Saltzman per the Saltzman Register (line: George Michael Salzmann, Casper Friedrich, Isac, in NS from 1720). Living at Grafton with son Caleb in 1911.",
+  "highlights": []
+ },
+ {
+  "id": "rhiltz",
+  "name": "Rebecca (Hiltz) Saltzman",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "hjs"
+  ],
+  "src": [
+   [
+    "Saltzman Register (genealogy-paulsen.org), Fifth Generation, #84",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_017.html"
+   ]
+  ],
+  "gen": 3,
+  "note": "Wife of Henry Jollymore Saltzman per the Saltzman Register.",
+  "highlights": []
+ },
+ {
+  "id": "gel",
+  "name": "George Edward Legge",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "mab"
+  ],
+  "src": [
+   [
+    "Saltzman Register (genealogy-paulsen.org), Fifth Generation, #84",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_017.html"
+   ]
+  ],
+  "gen": 3,
+  "note": "Father of Sarah Priscilla Legge per the Saltzman Register.",
+  "highlights": []
+ },
+ {
+  "id": "mab",
+  "name": "Mary Ann (Brown) Legge",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "gel"
+  ],
+  "src": [
+   [
+    "Saltzman Register (genealogy-paulsen.org), Fifth Generation, #84",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_017.html"
+   ]
+  ],
+  "gen": 3,
+  "note": "Mother of Sarah Priscilla Legge per the Saltzman Register.",
+  "highlights": []
+ },
+ {
+  "id": "jhw",
+  "name": "John Henry Wentzell",
+  "conf": "likely",
+  "born": "12 Apr 1841",
+  "died": "21 Dec 1923 (Newburne)",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "isv"
+  ],
+  "src": [
+   [
+    "Boehner Register (genealogy-paulsen.org), #2918",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Boehner_Register/rr02/rr02_208.html"
+   ]
+  ],
+  "gen": 4,
+  "note": "Father of John Amos Wentzell. Married Isabella Veinot 3 Jun 1865, per the Boehner Register.",
+  "highlights": []
+ },
+ {
+  "id": "isv",
+  "name": "Isabella (Veinot) Wentzell",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "jhw"
+  ],
+  "src": [
+   [
+    "Boehner Register (genealogy-paulsen.org), #2918",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Boehner_Register/rr02/rr02_208.html"
+   ]
+  ],
+  "gen": 4,
+  "note": "Mother of John Amos Wentzell per the Boehner Register.",
+  "highlights": []
+ },
+ {
+  "id": "hbb",
+  "name": "Hibbert Binney Beck",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "asv"
+  ],
+  "src": [
+   [
+    "Boehner Register (genealogy-paulsen.org), #2918",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Boehner_Register/rr02/rr02_208.html"
+   ]
+  ],
+  "gen": 4,
+  "note": "Father of Ida Louise Beck per the Boehner Register.",
+  "highlights": []
+ },
+ {
+  "id": "asv",
+  "name": "Adelaide Seletus (Veinot) Beck",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "hbb"
+  ],
+  "src": [
+   [
+    "Boehner Register (genealogy-paulsen.org), #2918",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Boehner_Register/rr02/rr02_208.html"
+   ]
+  ],
+  "gen": 4,
+  "note": "Mother of Ida Louise Beck. Her line in the register: William Veinot, Ann Catherine Marie Lantz, Margarethe Langille, Anna Barbara Boehner, Johann Georg Boehner.",
+  "highlights": []
+ },
+ {
+  "id": "hsr",
+  "name": "Henry Stephen Rogers",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "ll"
+  ],
+  "src": [
+   [
+    "Saltzman Register (genealogy-paulsen.org), Sixth Generation, #325",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_052.html"
+   ]
+  ],
+  "gen": 4,
+  "note": "Father of Addie Speck Rogers per the Saltzman Register.",
+  "highlights": []
+ },
+ {
+  "id": "ll",
+  "name": "Lillian (Lightfoot) Rogers",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "hsr"
+  ],
+  "src": [
+   [
+    "Saltzman Register (genealogy-paulsen.org), Sixth Generation, #325",
+    "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Saltzman_Register/rr01/rr01_052.html"
+   ]
+  ],
+  "gen": 4,
+  "note": "Mother of Addie Speck Rogers per the Saltzman Register.",
   "highlights": []
  }
 ]
