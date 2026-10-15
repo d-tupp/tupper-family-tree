@@ -104,13 +104,45 @@ table.rq{border-collapse:collapse;width:100%;font-size:12.5px}table.rq td,table.
 .upz{border:1.5px dashed var(--line);border-radius:12px;padding:16px;text-align:center;cursor:pointer;color:var(--muted);font-size:13px;transition:.15s;background:rgba(56,189,248,.04)}.upz:hover,.upz.over,.upz:focus{border-color:var(--brand);box-shadow:var(--glow);color:var(--ink);outline:none}.upz u{color:var(--brand)}
 .upg{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin-top:10px}.upg.sm{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}.upt{position:relative;border:1px solid var(--line);border-radius:10px;padding:6px;display:flex;flex-direction:column;gap:5px;background:rgba(56,189,248,.05)}.upt img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:7px}.upt select,.upt input{font-size:11.5px!important;padding:4px 6px!important;margin:0!important}.upt small{font-size:10.5px;color:var(--muted)}.upt .btn{font-size:11px;padding:4px 6px}
 .upx{position:absolute;top:2px;right:2px;width:24px;height:24px;border-radius:50%;border:1px solid var(--line);background:rgba(8,12,28,.85);color:#fff;cursor:pointer;font-size:15px;line-height:1}.upx:hover{border-color:var(--spec)}.upr{display:flex!important;gap:8px;align-items:center;font-size:13px}.upr input{width:auto!important}.nodata{font-size:11px;color:var(--muted);padding:20px 4px;text-align:center}
+
+#stage{top:46px!important;overflow:auto!important;cursor:default!important;mask-image:none!important;-webkit-mask-image:none!important;background-attachment:local;scroll-behavior:auto}
+#stage.drag{cursor:grabbing!important}
+#canvas{position:relative!important;transform:none!important;transition:none!important}
+#world{position:absolute;left:0;top:0;transform-origin:0 0}
+#tree{position:absolute;left:0;top:0}
+#tree .card{position:absolute;width:176px;height:64px;padding:10px 11px;box-sizing:border-box}
+#tree .card .nm{font-size:12.5px;line-height:1.2;max-height:30px;overflow:hidden}
+#tree .card.inlaw{border-style:dashed}
+#tree .card.dl{border-color:rgba(56,189,248,.55);box-shadow:0 0 0 1px rgba(56,189,248,.25),0 0 18px rgba(56,189,248,.18)}
+#tree .card.me{border-color:#a78bfa;box-shadow:0 0 0 1px #a78bfa,0 0 26px rgba(167,139,250,.45)}
+#tree .card.pulse{animation:pulse 1.6s ease}@keyframes pulse{50%{transform:scale(1.08)}}
+#lines path.cp{stroke-dasharray:none;opacity:.9;animation:none}
+#lines path.dlp{stroke:#38bdf8;stroke-width:2.6;opacity:1;stroke-dasharray:none;animation:none}
+.tg{position:absolute;z-index:2;min-width:28px;height:22px;border-radius:11px;border:1px solid var(--line2,var(--line));background:rgba(12,20,38,.92);color:var(--brand);font:600 11px var(--mono);cursor:pointer;padding:0 7px}
+.tg.on{color:var(--muted)}.tg:hover{border-color:var(--brand);box-shadow:var(--glow)}[data-theme=light] .tg{background:#fff}
+.upl{position:absolute;top:-10px;right:8px;font:500 9.5px var(--mono);padding:2px 6px;border-radius:8px;border:1px solid rgba(167,139,250,.6);background:rgba(20,18,44,.95);color:#c4b5fd;cursor:pointer;letter-spacing:.4px}
+.upl:hover{background:#a78bfa;color:#0b1020}[data-theme=light] .upl{background:#f5f3ff;color:#6d28d9}
+#linesbar{position:absolute;left:0;right:0;top:0;height:46px;display:flex;align-items:center;gap:10px;padding:0 14px;border-bottom:1px solid var(--line);background:rgba(8,14,28,.75);backdrop-filter:blur(10px);z-index:6;overflow-x:auto;white-space:nowrap}
+[data-theme=light] #linesbar{background:rgba(255,255,255,.9)}
+.lbt{font:500 10px var(--mono);letter-spacing:1.6px;text-transform:uppercase;color:var(--muted)}
+#ltabs{display:flex;gap:6px;align-items:center}
+.lt{border:1px solid var(--line);background:transparent;color:inherit;border-radius:999px;padding:5px 12px;font-size:12.5px;cursor:pointer}.lt.on{border-color:var(--brand);color:var(--brand);box-shadow:var(--glow)}
+#lmore{background:transparent;color:inherit;border:1px solid var(--line);border-radius:999px;padding:5px 10px;font-size:12px;max-width:170px}
+#lmore option{color:#000}
+.lact{margin-left:auto;display:flex;gap:6px}.btn.sm{padding:5px 10px;font-size:12px}
+#rail{position:absolute;left:0;top:46px;bottom:0;width:112px;overflow:hidden;pointer-events:none;z-index:4;background:linear-gradient(90deg,rgba(6,10,22,.85),rgba(6,10,22,0))}
+[data-theme=light] #rail{background:linear-gradient(90deg,rgba(255,255,255,.95),rgba(255,255,255,0))}
+#railin{position:absolute;left:0;top:0;right:0}
+.rl{position:absolute;left:10px;transform:translateY(-50%);font-size:11px;color:var(--muted);line-height:1.3;padding-left:8px;border-left:2px solid var(--brand);width:92px}
+.rl b{display:block;color:var(--brand);font:500 9.5px var(--mono);letter-spacing:1.2px;text-transform:uppercase}
+@media (max-width:760px){.lbt,.lact .btn span{display:none}#linesbar{gap:6px;padding:0 8px}.lact .btn.sm{padding:5px 8px}#rail{width:74px}.rl{width:58px;font-size:9.5px;left:4px}.rl b{font-size:8px;letter-spacing:.6px}}
 </style></head><body>
 <header class="top"><div class="mark">T</div><div class="brand"><h1>The Tupper Family</h1><p>Descendants &amp; ancestors of Dustin James Tupper · Kings County, Nova Scotia</p></div>
 <div class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" placeholder="Search people, places, years, cemeteries…" autocomplete="off"><span class="kbd">Ctrl K</span><div id="results"></div></div>
 <div class="nav"><button class="btn" id="tabbtn" onclick="toggleSettlers()">📜 <span class="lbl">First Tuppers</span></button><button class="btn" onclick="showPending()">✉ <span class="lbl">Requests</span><span class="badge" id="pc">0</span></button><button class="btn" id="thm" onclick="toggleTheme()" title="Toggle dark mode">◐</button></div></header>
-<main><div id="stage"><div id="canvas"><svg id="lines"><defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs><g id="lg2"></g></svg><div id="tree"></div></div></div>
+<main><div id="linesbar"><span class="lbt">Family lines</span><div id="ltabs"></div><div class="lact"><button class="btn sm" onclick="focusLine()">◎ Focus on Dustin's line</button><button class="btn sm" onclick="expandAll()">⊞ Expand all</button><button class="btn sm" onclick="collapseAll()">⊟ Collapse</button></div></div><div id="rail"><div id="railin"></div></div><div id="stage"><div id="canvas"><div id="world"><svg id="lines"><defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs><g id="lg2"></g></svg><div id="tree"></div></div></div></div>
 <div class="zoom"><button onclick="zoomBy(1.2)" title="Zoom in">+</button><button onclick="zoomBy(1/1.2)" title="Zoom out">−</button><button onclick="fit()" title="Fit to screen">⤢</button></div>
-<div class="legend"><span><i class="c-confirmed"></i>Confirmed</span><span><i class="c-likely"></i>Likely</span><span><i class="c-speculative"></i>Speculative</span><span>Drag to pan · scroll to zoom</span></div>
+<div class="legend"><span><i class="c-confirmed"></i>Confirmed</span><span><i class="c-likely"></i>Likely</span><span><i class="c-speculative"></i>Speculative</span><span>Scroll to move · Ctrl/pinch to zoom · ＋ / − show or hide branches</span></div>
 <section id="settlers"><article class="art"><div class="kick">Family history</div><h2>The first Tuppers in Nova Scotia</h2>
 <p><i>Everything here comes from the cited sources. Where sources disagree, both versions are given.</i></p>
 <h3>From Sussex to Cape Cod</h3>
@@ -154,32 +186,90 @@ const ini=n=>n.replace(/\(.*?\)|".*?"/g,'').split(/\s+/).filter(w=>/^[A-Z]/.test
 const hues=[215,25,150,280,350,190,45,120];const avc=p=>`hsl(${hues[(p.name.length+p.id.length)%hues.length]} 35% 42%)`;
 const av=(p,c='')=>p.photo?`<span class="av ring-${p.conf} ${c}"><img src="${esc(p.photo.file)}" alt="${esc(p.name)}"></span>`:`<span class="av ring-${p.conf} ${c}">${ini(p.name)}</span>`;
 const GL={0:['Colonial','New England'],1:['Planter','Settlers'],2:['Generation','III'],3:['Generation','IV'],4:['Generation','V'],5:['Great-great','grandparents'],6:['Great-','grandparents'],7:['Grand-','parents'],8:['Parents','aunts &amp; uncles'],9:['Dustin\'s','generation']};
-const gens=[...new Set(P.map(p=>p.gen))].sort((a,b)=>a-b),tree=document.getElementById('tree');
-gens.forEach(g=>{const r=document.createElement('div');r.className='gen';const l=GL[g]||['Gen',g];r.innerHTML=`<div class="glab"><b>${l[0]}</b>${l[1]}</div>`;
- P.filter(p=>p.gen===g).forEach(p=>{const d=document.createElement('div');d.className='card'+(p.id==='dustin'?' me':'');d.id='n_'+p.id;
-  d.innerHTML=`${av(p)}<div><div class="nm">${esc(p.name)}</div><div class="yr">${years(p)}</div></div><span class="dot ${p.conf}" title="${p.conf}"></span>`;
-  d.addEventListener('click',e=>{if(!moved)show(p.id)});r.appendChild(d)});tree.appendChild(r)});
-function draw(){const s=document.getElementById('lines'),c=document.getElementById('canvas');s.setAttribute('width',c.scrollWidth);s.setAttribute('height',c.scrollHeight);
- const pos=el=>{let x=0,y=0,e=el;while(e&&e!==c){x+=e.offsetLeft;y+=e.offsetTop;e=e.offsetParent}return{x,y,w:el.offsetWidth,h:el.offsetHeight}};let h='';
- P.forEach(ch=>ch.parents.forEach(pid=>{const a=pos(document.getElementById('n_'+pid)),b=pos(document.getElementById('n_'+ch.id));
-  const x1=a.x+a.w/2,y1=a.y+a.h,x2=b.x+b.w/2,y2=b.y,my=(y1+y2)/2;h+=`<path d="M${x1},${y1} C${x1},${my} ${x2},${my} ${x2},${y2}" />`}));document.getElementById('lg2').innerHTML=h}
-// pan/zoom
-let S=1,TX=0,TY=0,moved=false;const stage=document.getElementById('stage'),cv=document.getElementById('canvas');
-const apply=()=>cv.style.transform=`translate(${TX}px,${TY}px) scale(${S})`;
-function zoomAt(f,cx,cy){const n=Math.min(2.5,Math.max(.15,S*f));TX=cx-(cx-TX)*n/S;TY=cy-(cy-TY)*n/S;S=n;apply()}
-function zoomBy(f){const r=stage.getBoundingClientRect();zoomAt(f,r.width/2,r.height/2)}
-function fit(){const r=stage.getBoundingClientRect(),w=cv.scrollWidth,h=cv.scrollHeight;S=Math.min(r.width/w,r.height/h)*.94;TX=(r.width-w*S)/2;TY=Math.max(10,(r.height-h*S)/2);apply()}
-function focusNode(id){const el=document.getElementById('n_'+id),r=stage.getBoundingClientRect(),dw=document.getElementById('drawer').classList.contains('open')&&innerWidth>760?420:0;
- let x=0,y=0,e=el;while(e&&e!==cv){x+=e.offsetLeft;y+=e.offsetTop;e=e.offsetParent}if(S<.7)S=.85;TX=(r.width-dw)/2-(x+el.offsetWidth/2)*S;TY=r.height/2-(y+el.offsetHeight/2)*S;apply()}
-stage.addEventListener('wheel',e=>{e.preventDefault();cv.classList.add('nt');const r=stage.getBoundingClientRect();zoomAt(e.deltaY<0?1.1:1/1.1,e.clientX-r.left,e.clientY-r.top)},{passive:false});
-let sx,sy,stx,sty,down=false;stage.addEventListener('pointerdown',e=>{down=true;moved=false;sx=e.clientX;sy=e.clientY;stx=TX;sty=TY;cv.classList.add('nt')});
-addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx,dy=e.clientY-sy;if(Math.abs(dx)+Math.abs(dy)>4){moved=true;stage.classList.add('drag')}if(moved){TX=stx+dx;TY=sty+dy;apply()}});
-addEventListener('pointerup',()=>{down=false;stage.classList.remove('drag');setTimeout(()=>{moved=false;cv.classList.remove('nt')},0)});
+// ===== Top-centre-down tree with family-line tabs =====
+const CW=176,CH=64,CG=16,SG=26,ROW=150,PADX=130,PADY=40;
+const kidsOf=id=>P.filter(c=>c.parents.includes(id)).sort((a,b)=>(+yr(a.born)||9999)-(+yr(b.born)||9999));
+const anc=new Set();(function up(id){if(anc.has(id))return;anc.add(id);(byId[id]?.parents||[]).forEach(up)})('dustin');
+const DL=anc; // direct line (Dustin + all his ancestors)
+const surn=n=>{const w=n.replace(/\(.*?\)|".*?"/g,'').trim().split(/\s+/);return w[w.length-1]};
+// roots: no parents, has children, no spouse with parents; one per couple
+const ROOTS=[];{const seen=new Set();P.forEach(p=>{if(p.parents.length||seen.has(p.id)||!kidsOf(p.id).length)return;if(p.spouse.some(s=>byId[s]&&byId[s].parents.length))return;ROOTS.push(p.id);seen.add(p.id);p.spouse.forEach(s=>seen.add(s))})}
+const MAIN=[['eli','Tupper'],['hjs','Salsman'],['jedm','Murphy'],['gad','Doherty'],['edmundh','Haines']].filter(m=>byId[m[0]]);
+const bloodOf={};[...new Set([...ROOTS,...MAIN.map(m=>m[0])])].forEach(r=>{const st=[r],v=new Set();while(st.length){const x=st.pop();if(v.has(x))continue;v.add(x);kidsOf(x).forEach(k=>st.push(k.id))}bloodOf[r]=v});
+const lineName=r=>(MAIN.find(m=>m[0]===r)||[0,surn(byId[r].name)])[1];
+const rootOrder=[...MAIN.map(m=>m[0]),...ROOTS.filter(r=>!MAIN.some(m=>m[0]===r)).sort((a,b)=>lineName(a).localeCompare(lineName(b)))];
+const linesFor=id=>rootOrder.filter(r=>bloodOf[r].has(id));
+let ROOT='eli',S=innerWidth<760?.62:1,moved=false;
+const EXP={};const defaultExp=()=>{const s=new Set();P.forEach(p=>{if(DL.has(p.id)&&p.id!=='dustin')s.add(p.id)});return s};
+const expSet=()=>EXP[ROOT]||(EXP[ROOT]=defaultExp());
+const stage=document.getElementById('stage'),cv=document.getElementById('canvas'),world=document.getElementById('world'),tree=document.getElementById('tree');
+function layout(){const ex=expSet(),placed=new Set(),units=[];
+ function build(id,depth){placed.add(id);const p=byId[id];const sp=p.spouse.filter(s=>byId[s]&&!placed.has(s));
+  sp.forEach(s=>placed.add(s));const kids=kidsOf(id).filter(k=>!placed.has(k.id));
+  const u={id,depth,sp,kids:[],open:ex.has(id)&&kids.length>0,nk:kids.length};
+  if(u.open){// order kids: by other-parent order (left spouse group, none, right groups)
+   const ord=k=>{const o=k.parents.find(x=>x!==id);const i=sp.indexOf(o);return i<0?(sp.length>1?0.5:99):i};
+   kids.sort((a,b)=>ord(a)-ord(b));kids.forEach(k=>{if(!placed.has(k.id))u.kids.push(build(k.id,depth+1))})}
+  const own=(1+sp.length)*CW+sp.length*CG;const cw=u.kids.reduce((s,k)=>s+k.w,0)+Math.max(0,u.kids.length-1)*SG;u.own=own;u.w=Math.max(own,cw);u.cw=cw;units.push(u);return u}
+ const root=build(ROOT,0);
+ function place(u,x0){u.x=x0+(u.w-u.own)/2;let cx=x0+(u.w-u.cw)/2;u.kids.forEach(k=>{place(k,cx);cx+=k.w+SG})}
+ place(root,PADX);return{root,units}}
+function render(){const {root,units}=layout();let h='',L='';const maxD=Math.max(...units.map(u=>u.depth));
+ const pos={};units.forEach(u=>{const y=PADY+u.depth*ROW;let order;// blood card placement: with 2 spouses -> middle
+  if(u.sp.length>=2)order=[u.sp[0],u.id,...u.sp.slice(1)];else order=[u.id,...u.sp];
+  order.forEach((pid,i)=>{const x=u.x+i*(CW+CG);pos[pid]={x,y};const p=byId[pid],blood=pid===u.id;
+   const lines=blood?[]:linesFor(pid).filter(r=>r!==ROOT);
+   h+=`<div class="card${pid==='dustin'?' me':''}${DL.has(pid)?' dl':''}${blood?'':' inlaw'}" id="n_${pid}" style="left:${x}px;top:${y}px" onclick="if(!moved)show('${pid}')">${av(p)}<div><div class="nm">${esc(p.name)}</div><div class="yr">${years(p)}</div></div><span class="dot ${p.conf}" title="${p.conf}"></span>${lines.length?`<button class="upl" title="Show the ${esc(lineName(lines[0]))} family line" onclick="event.stopPropagation();gotoLine('${lines[0]}','${pid}')">↑ ${esc(lineName(lines[0]))}</button>`:''}</div>`});
+  if(order.length>1)for(let i=0;i<order.length-1;i++){const a=pos[order[i]],y2=y+CH/2;L+=`<path class="cp" d="M${a.x+CW},${y2} H${a.x+CW+CG}"/>`}
+  if(u.nk){const bx=u.x+u.own/2;h+=`<button class="tg${u.open?' on':''}" style="left:${bx-14}px;top:${y+CH+6}px" title="${u.open?'Hide':'Show'} descendants" onclick="event.stopPropagation();toggleU('${u.id}')">${u.open?'−':'+'+u.nk}</button>`}
+ });
+ units.forEach(u=>{if(!u.open)return;const b=pos[u.id],y1=b.y+CH,busY=b.y+CH+(ROW-CH)/2+6;
+  const groups={};u.kids.forEach(k=>{const o=byId[k.id].parents.find(x=>x!==u.id&&u.sp.includes(x))||'';(groups[o]=groups[o]||[]).push(k)});
+  Object.entries(groups).forEach(([o,ks],gi)=>{let sx;if(o&&pos[o]){const a=pos[o];sx=(Math.min(a.x,b.x)+Math.max(a.x,b.x)+CW)/2}else sx=b.x+CW/2;
+   const sy=o?b.y+CH/2:y1,by=busY+gi*6;const xs=ks.map(k=>pos[k.id].x+CW/2);const dlk=ks.some(k=>DL.has(k.id))&&DL.has(u.id);
+   L+=`<path class="${dlk?'dlp':''}" d="M${sx},${sy} V${by}"/>`;
+   if(ks.length)L+=`<path d="M${Math.min(sx,...xs)},${by} H${Math.max(sx,...xs)}"/>`;
+   ks.forEach(k=>{const kx=pos[k.id].x+CW/2;L+=`<path class="${DL.has(k.id)&&DL.has(u.id)?'dlp':''}" d="M${kx},${by} V${pos[k.id].y}"/>`;if(DL.has(k.id)&&DL.has(u.id))L+=`<path class="dlp" d="M${sx},${by} H${kx}"/>`})})});
+ const W=root.w+PADX*2,H=PADY*2+(maxD+1)*ROW;tree.innerHTML=h;document.getElementById('lg2').innerHTML=L;
+ const s=document.getElementById('lines');s.setAttribute('width',W);s.setAttribute('height',H);world.style.width=W+'px';world.style.height=H+'px';
+ cv.style.width=W*S+'px';cv.style.height=H*S+'px';world.style.transform=`scale(${S})`;WH={W,H,maxD,units,pos};rail();tabs()}
+let WH={};
+function rail(){const r=document.getElementById('railin');if(!r)return;let h='';for(let d=0;d<=WH.maxD;d++){const us=WH.units.filter(u=>u.depth===d),ys=us.map(u=>+yr(byId[u.id].born)).filter(Boolean).sort((a,b)=>a-b);
+ const g=us.map(u=>byId[u.id].gen),gm=g.sort((a,b)=>g.filter(v=>v===a).length-g.filter(v=>v===b).length).pop();const l=GL[gm]||['Gen',gm];const y=ys.length?ys[ys.length>>1]:null;
+ h+=`<div class="rl" style="top:${(PADY+d*ROW+CH/2)*S}px"><b>${l[0]} ${l[1]}</b>${y?'c. '+(Math.round(y/10)*10)+'s':''}</div>`}r.innerHTML=h;r.style.transform=`translateY(${-stage.scrollTop}px)`}
+stage.addEventListener('scroll',()=>{const r=document.getElementById('railin');if(r)r.style.transform=`translateY(${-stage.scrollTop}px)`});
+function tabs(){const t=document.getElementById('ltabs');t.innerHTML=MAIN.map(([r,n])=>`<button class="lt${r===ROOT?' on':''}" onclick="setLine('${r}')">${n}</button>`).join('')+
+ `<select id="lmore" onchange="if(this.value)setLine(this.value)" title="More family lines"><option value="">More lines…</option>${rootOrder.filter(r=>!MAIN.some(m=>m[0]===r)).map(r=>`<option value="${r}"${r===ROOT?' selected':''}>${esc(lineName(r))} (${esc(byId[r].name)})</option>`).join('')}</select>`}
+function setLine(r,keep){ROOT=r;render();if(!keep){stage.scrollTop=0;centerX()}}
+function gotoLine(r,pid){setLine(r,true);reveal(pid);focusNode(pid)}
+function centerX(){const u=WH.units&&WH.units.find(u=>u.id===ROOT);const x=u?(u.x+u.own/2)*S:cv.offsetWidth/2;stage.scrollLeft=x-stage.clientWidth/2}
+function toggleU(id){const e=expSet();e.has(id)?e.delete(id):e.add(id);const el=document.getElementById('n_'+id),b=el&&el.getBoundingClientRect();render();const el2=document.getElementById('n_'+id);if(b&&el2){const b2=el2.getBoundingClientRect();stage.scrollLeft+=b2.left-b.left;stage.scrollTop+=b2.top-b.top}}
+function expandAll(){const e=expSet();bloodOf[ROOT].forEach(i=>e.add(i));render()}
+function collapseAll(){EXP[ROOT]=new Set();render();stage.scrollTop=0;centerX()}
+function focusLine(){EXP[ROOT='eli']=defaultExp();Object.keys(EXP).forEach(k=>EXP[k]=defaultExp());render();focusNode('dustin');const d=document.getElementById('n_dustin');if(d){d.classList.add('pulse');setTimeout(()=>d.classList.remove('pulse'),1600)}}
+function reveal(id){// make sure id's card is in the current tab; switch tab and expand path if needed
+ let host=id;if(!bloodOf[ROOT].has(id)){const sp=byId[id].spouse.find(s=>bloodOf[ROOT].has(s));if(sp)host=sp;else{let ls=linesFor(id);if(!ls.length){const s2=byId[id].spouse.find(s=>linesFor(s).length);if(s2){host=s2;ls=linesFor(s2)}}if(!ls.length)return;ROOT=ls[0]}}
+ if(!bloodOf[ROOT].has(host))host=id;const e=expSet();(function up(x){const p=byId[x];p.parents.forEach(pp=>{if(bloodOf[ROOT].has(pp)){e.add(pp);up(pp)}})})(host);render()}
+function focusNode(id){const el=document.getElementById('n_'+id);if(!el)return;const dw=drawer.classList.contains('open')&&innerWidth>760?420:0;
+ stage.scrollTo({left:(el.offsetLeft+CW/2)*S-(stage.clientWidth-dw)/2,top:(el.offsetTop+CH/2)*S-stage.clientHeight/2,behavior:'smooth'})}
+function zoomAt(f,cx,cy){const n=Math.min(2,Math.max(.25,S*f));if(n===S)return;const wx=(stage.scrollLeft+cx)/S,wy=(stage.scrollTop+cy)/S;S=n;
+ cv.style.width=WH.W*S+'px';cv.style.height=WH.H*S+'px';world.style.transform=`scale(${S})`;stage.scrollLeft=wx*S-cx;stage.scrollTop=wy*S-cy;rail()}
+function zoomBy(f){zoomAt(f,stage.clientWidth/2,stage.clientHeight/2)}
+function fit(){S=Math.max(.25,Math.min(1,(stage.clientWidth-20)/WH.W));render();stage.scrollTop=0;centerX()}
+stage.addEventListener('wheel',e=>{if(!e.ctrlKey&&!e.metaKey)return;e.preventDefault();const r=stage.getBoundingClientRect();zoomAt(e.deltaY<0?1.1:1/1.1,e.clientX-r.left,e.clientY-r.top)},{passive:false});
+// mouse drag pans (touch uses native scrolling); two-finger pinch zooms
+let sx,sy,ssl,sst,down=false;stage.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0||e.target.closest('button,select'))return;down=true;moved=false;sx=e.clientX;sy=e.clientY;ssl=stage.scrollLeft;sst=stage.scrollTop});
+addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx,dy=e.clientY-sy;if(Math.abs(dx)+Math.abs(dy)>4){moved=true;stage.classList.add('drag')}if(moved){stage.scrollLeft=ssl-dx;stage.scrollTop=sst-dy}});
+addEventListener('pointerup',()=>{down=false;stage.classList.remove('drag');setTimeout(()=>{moved=false},0)});
+let pd=0;stage.addEventListener('touchmove',e=>{if(e.touches.length!==2)return;e.preventDefault();const[a,b]=e.touches,d=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY),r=stage.getBoundingClientRect();if(pd)zoomAt(d/pd,(a.clientX+b.clientX)/2-r.left,(a.clientY+b.clientY)/2-r.top);pd=d},{passive:false});
+stage.addEventListener('touchend',()=>pd=0);
+function draw(){render()}
+
 // drawer
 const drawer=document.getElementById('drawer');
 const chip=id=>`<span class="chip" onclick="show('${id}')">${av(byId[id])}${esc(byId[id].name)}</span>`;
 const tag=(c,l)=>c?`<span class="tag"><i class="c-${c}"></i>${l||c}</span>`:'';
-function show(id){const p=byId[id];document.querySelectorAll('.card.sel').forEach(e=>e.classList.remove('sel'));document.getElementById('n_'+id).classList.add('sel');
+function show(id){const p=byId[id];if(!document.getElementById('n_'+id))reveal(id);document.querySelectorAll('.card.sel').forEach(e=>e.classList.remove('sel'));const _c=document.getElementById('n_'+id);if(_c)_c.classList.add('sel');
  const kids=P.filter(c=>c.parents.includes(id));const hl=p.highlights||[];
  drawer.innerHTML=`<button class="x" onclick="closeDrawer()" aria-label="Close">✕</button>
  <div class="dh">${av(p)}<div><h2>${esc(p.name)}</h2><div class="pid">ID · ${esc(p.id)} · GEN ${p.gen}</div>${tag(p.conf)}</div></div>${p.photo?`<figure class="dphoto"><img src="${esc(p.photo.file)}" alt="Photo of ${esc(p.name)}"><figcaption>Photo: <a href="${esc(p.photo.url)}" target="_blank" rel="noopener">${esc(p.photo.credit)}</a></figcaption></figure>`:''}
@@ -204,7 +294,7 @@ let act=-1;
 q.addEventListener('input',()=>{const w=q.value.trim();act=-1;document.querySelectorAll('.card.hit,.card.dim').forEach(e=>e.classList.remove('hit','dim'));
  if(w.length<2){res.style.display='none';return}
  const t=w.toLowerCase().split(/\s+/),hits=P.filter(p=>{const h=hay(p).toLowerCase();return t.every(x=>h.includes(x))});
- P.forEach(p=>document.getElementById('n_'+p.id).classList.add(hits.includes(p)?'hit':'dim'));
+ P.forEach(p=>{const c=document.getElementById('n_'+p.id);if(c)c.classList.add(hits.includes(p)?'hit':'dim')});
  res.innerHTML=hits.length?`<div style="padding:8px 12px;font-size:11px;color:var(--muted);letter-spacing:1px;text-transform:uppercase">${hits.length} match${hits.length>1?'es':''}</div>`+hits.map(p=>{const h=hay(p),i=Math.max(0,h.toLowerCase().indexOf(t[0]));
   return `<div class="r" data-id="${p.id}" onclick="pick('${p.id}')">${av(p)}<div><b>${hiTxt(p.name,t[0])}</b> <span class="dot ${p.conf}" style="position:static;display:inline-block;margin-left:4px"></span><small>${hiTxt((i>40?'…':'')+h.slice(Math.max(0,i-40),i+90),t[0])}</small></div></div>`}).join(''):'<div class="r">No matches</div>';
  res.style.display='block'});
@@ -216,7 +306,7 @@ function closePalette(){document.body.classList.remove('palette');res.style.disp
 function pick(id){document.body.classList.remove('palette');res.style.display='none';if(document.getElementById('settlers').style.display==='block')toggleSettlers();show(id)}
 document.addEventListener('click',e=>{if(!e.target.closest('.search')){res.style.display='none';document.body.classList.remove('palette')}});
 q.addEventListener('focus',()=>{if(q.value.trim().length>1)res.style.display='block'});
-function toggleSettlers(){const s=document.getElementById('settlers'),b=document.getElementById('tabbtn'),on=s.style.display!=='block';s.style.display=on?'block':'none';b.classList.toggle('on',on);document.querySelector('.zoom').style.display=document.querySelector('.legend').style.display=on?'none':'';if(on)closeDrawer()}
+function toggleSettlers(){const s=document.getElementById('settlers'),b=document.getElementById('tabbtn'),on=s.style.display!=='block';s.style.display=on?'block':'none';b.classList.toggle('on',on);document.querySelector('.zoom').style.display=document.querySelector('.legend').style.display=document.getElementById('linesbar').style.display=document.getElementById('rail').style.display=on?'none':'';if(on)closeDrawer()}
 function toggleTheme(){const d=document.documentElement,n=d.dataset.theme==='light'?'dark':'light';d.dataset.theme=n;try{localStorage.setItem('tupperFutureTheme',n)}catch(e){}}
 try{if(localStorage.getItem('tupperFutureTheme')==='light')document.documentElement.dataset.theme='light'}catch(e){}
 // ---- Fix requests ----
@@ -335,8 +425,8 @@ function showPending(){const a=loadReq();
  ${Object.keys(loadAp()).length?`<p style="font-size:12px;color:var(--muted)">Local photo previews (only in this browser, not published): ${Object.keys(loadAp()).map(pid=>`${esc(byId[pid]?.name||pid)} <a href="#" onclick="revokePhoto('${pid}');return false">undo</a>`).join(', ')}</p>`:''}`;modal.style.display='block'}
 function delReq(i){const a=loadReq();a.splice(i,1);saveReq(a);showPending()}
 saveReq(loadReq());
-addEventListener('load',()=>{draw();fit();if(innerWidth<760){S=.8;focusNode('dustin')}if(location.hash&&byId[location.hash.slice(1)])show(location.hash.slice(1))});
+render();addEventListener('load',()=>{render();stage.scrollTop=0;centerX();if(location.hash&&byId[location.hash.slice(1)])show(location.hash.slice(1))});
 const setHH=()=>document.documentElement.style.setProperty('--hh',document.querySelector('.top').offsetHeight+'px');setHH();
-addEventListener('resize',()=>{setHH();draw()});
+addEventListener('resize',()=>{setHH();rail()});
 </script><div class="privnote" style="position:fixed;bottom:6px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--muted);z-index:7;pointer-events:none">Birth dates and photos of living family members are hidden for privacy.</div>
 </body></html>
