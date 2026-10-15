@@ -70,12 +70,12 @@
  },
  {
   "id": "charles",
-  "name": "Charles Tupper",
+  "name": "Charles Eliakim Tupper",
   "conf": "confirmed",
-  "born": "19 Aug 1748",
-  "died": "29 Apr 1821",
-  "grave": "Morristown Cemetery (Old), Morristown, Kings Co. (per FamilySearch)",
-  "graveconf": "likely",
+  "born": "19 Aug 1748 (Plymouth, MA)",
+  "died": "29 Apr 1822 (Cornwallis Square, Kings Co.)",
+  "grave": "Morristown Cemetery (Old), Morristown, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "eli",
@@ -100,10 +100,14 @@
    [
     "A Family Reunion: Tupper (douglasjgraham.net)",
     "https://douglasjgraham.net/Tupper.html"
+   ],
+   [
+    "Find a Grave: Charles Eliakim Tupper",
+    "https://www.findagrave.com/memorial/226085858"
    ]
   ],
   "gen": 1,
-  "note": "Sir Charles Tupper (1821 to 1915), Premier of Nova Scotia and Prime Minister of Canada, was his grandson through Rev. Charles Tupper (1794 to 1881). That makes Sir Charles a first cousin of Thomas Handley Tupper, and Dustin's line a collateral branch of the Prime Minister's family. Conflict: one secondary source says Charles and his wife died after 1837; FamilySearch and WikiTree give 29 Apr 1821.",
+  "note": "Sir Charles Tupper (1821 to 1915), Premier of Nova Scotia and Prime Minister of Canada, was his grandson through Rev. Charles Tupper (1794 to 1881). That makes Sir Charles a first cousin of Thomas Handley Tupper, and Dustin's line a collateral branch of the Prime Minister's family. Conflict: one secondary source says Charles and his wife died after 1837; FamilySearch and WikiTree give 29 Apr 1821. Death year: Find a Grave gives 1822; earlier sources gave 1821.",
   "highlights": [
    {
     "text": "Came to Cornwallis Township as a boy with his Planter family about 1760",
@@ -159,20 +163,24 @@
    [
     "WikiTree: Arthur Tupper (ancestors of Thomas H. Tupper)",
     "https://www.wikitree.com/wiki/Tupper-949"
+   ],
+   [
+    "Find a Grave: Elizabeth West Tupper",
+    "https://www.findagrave.com/memorial/226086050"
    ]
   ],
   "gen": 1,
-  "note": "",
+  "note": "Find a Grave links her as the wife of Charles Eliakim Tupper (1754-1839).",
   "highlights": []
  },
  {
   "id": "thomas1774",
   "name": "Thomas Tupper",
   "conf": "confirmed",
-  "born": "03 Mar 1774",
-  "died": "05 Nov 1856 (Cornwallis, Kings Co.)",
-  "grave": "Unknown",
-  "graveconf": "",
+  "born": "5 Mar 1774 (Cornwallis, Kings Co.)",
+  "died": "5 Nov 1856 (Aylesford, Kings Co.)",
+  "grave": "Old Tremont Cemetery, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "charles",
@@ -193,10 +201,14 @@
    [
     "FamilySearch: Charles Eliakim Tupper (1748-1821)",
     "https://ancestors.familysearch.org/en/LHLH-65G/charles-eliakim-tupper-1748-1821"
+   ],
+   [
+    "Find a Grave: Rev. Charles D. Tupper (Thomas's brother)",
+    "https://www.findagrave.com/memorial/147415007"
    ]
   ],
   "gen": 2,
-  "note": "",
+  "note": "Link to Charles Eliakim Tupper and Elizabeth West is now confirmed: Find a Grave links them as his parents, matching FamilySearch and WikiTree. Birth date: Find a Grave gives 5 Mar; WikiTree gave 3 Mar. Death place: Find a Grave gives Aylesford; earlier source gave Cornwallis. His siblings include Rev. Charles D. Tupper (Find a Grave 147415007), father of Sir Charles Tupper. His children: Charlotte Baker, William Archer, Rev. James Henry and Thomas Handley Tupper.",
   "highlights": [
    {
     "text": "Son of Charles Tupper and Elizabeth West (FamilySearch lists him among their children), which makes him an older brother of Rev. Charles Tupper DD and an uncle of Sir Charles Tupper",
@@ -472,8 +484,8 @@
   "conf": "confirmed",
   "born": "12 Apr 1869",
   "died": "20 May 1909 (Morristown)",
-  "grave": "Unknown. No Find a Grave memorial was found, and other transcriptions were searched without success.",
-  "graveconf": "speculative",
+  "grave": "Morristown Cemetery, Morristown, Kings Co. NS (stone reads \"Aged 40 yrs\")",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "lpt",
@@ -490,10 +502,18 @@
    [
     "Kings Historical Society cemetery index (T)",
     "https://www.kingscountymuseum.ca/genealogyarchive/cemetery/Cemetery%20Data-T.HTML"
+   ],
+   [
+    "Find a Grave: W. John Tupper",
+    "https://www.findagrave.com/memorial/216358845"
+   ],
+   [
+    "NS Archives death register: John Tupper, 1909 (book 12, p. 32, no. 199)",
+    "https://archives.novascotia.ca/vital-statistics/death/?ID=96662"
    ]
   ],
   "gen": 5,
-  "note": "RootsWeb records him as \"John Tupper\", who married Jessie Morse in 1898.",
+  "note": "RootsWeb records him as \"John Tupper\", who married Jessie Morse in 1898. NS death register: died 20 May 1909 at Morristown, farmer, married, born Morristown, cause tuberculosis, Baptist. Age conflict: the register says 46 and the stone says 40; neither fits exactly with a birth of 12 Apr 1869 (age 40 at death fits the stone).",
   "highlights": []
  },
  {
@@ -527,19 +547,21 @@
    ]
   ],
   "gen": 5,
-  "note": "Her first husband was Rupert M. Palmer (children Beatrice and Lorimer Neil Palmer). She married John Tupper in 1898. Children with him: Muriel Blanch, Rosamond Elizabeth, Durwood and Angie Alalia Tupper. Her death date differs between sources: 9 Oct 1962 (WikiTree) and 2 Oct 1962 (RootsWeb).",
+  "note": "Her first husband was Rupert M. Palmer (children Beatrice and Lorimer Neil Palmer). She married John Tupper in 1898. Children with him: Muriel Blanch, Rosamond Elizabeth, Durwood and Angie Alalia Tupper. Her death date differs between sources: 9 Oct 1962 (WikiTree) and 2 Oct 1962 (RootsWeb). No Find a Grave memorial or NS 1962 death record was found in a browser search (Oct 2026).",
   "highlights": []
  },
  {
   "id": "twinning",
   "name": "Twining Haines",
   "conf": "confirmed",
-  "born": "Unknown",
-  "died": "1947",
+  "born": "Unknown (New Canada, Lunenburg Co.)",
+  "died": "17 Oct 1947 (Barss Corner, Lunenburg Co.)",
   "grave": "Barss Corner Baptist Cemetery, Lunenburg Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "parents": [],
+  "parents": [
+   "edmundh"
+  ],
   "spouse": [
    "bessie"
   ],
@@ -555,6 +577,10 @@
    [
     "Lantz register: Haines/Mossman family",
     "https://genealogy-paulsen.org/genealogy/Nova_Scotia/Lantz_Register/rr05/rr05_310.html"
+   ],
+   [
+    "NS Archives death register: Twining Haines, 1947",
+    "https://archives.novascotia.ca/vital-statistics/death/?ID=348604"
    ]
   ],
   "gen": 5,
@@ -570,7 +596,10 @@
   "grave": "Barss Corner Baptist Cemetery, Lunenburg Co. NS",
   "graveconf": "confirmed",
   "obit": "",
-  "parents": [],
+  "parents": [
+   "ham",
+   "lucyv"
+  ],
   "spouse": [
    "twinning"
   ],
@@ -736,14 +765,17 @@
  },
  {
   "id": "jamesm",
-  "name": "James Murphy",
+  "name": "James Evander Murphy",
   "conf": "confirmed",
-  "born": "Unknown",
-  "died": "",
-  "grave": "Unknown. No Find a Grave memorial was found, and other transcriptions were searched without success.",
-  "graveconf": "",
+  "born": "22 Apr 1895 (Aylesford, Kings Co.)",
+  "died": "28 Nov 1971 (South Berwick)",
+  "grave": "Berwick Cemetery, Berwick, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
-  "parents": [],
+  "parents": [
+   "jedm",
+   "ecm"
+  ],
   "spouse": [
    "jennie"
   ],
@@ -755,22 +787,33 @@
    [
     "John (Jack) Elwood Murphy obituary 1995 (genealogybuff transcription)",
     "https://www.genealogybuff.com/canada/novascotia/webbbs_config.pl/noframes/read/710"
+   ],
+   [
+    "Find a Grave: James Evander Murphy",
+    "https://www.findagrave.com/memorial/178592536"
+   ],
+   [
+    "NS Archives marriage register: James Murphy & Jennie Kirk, 1918",
+    "https://archives.novascotia.ca/vital-statistics/marriage/?ID=161881"
    ]
   ],
   "gen": 6,
-  "note": "Stewart's father. His obituary and his brother Jack's both name the parents as James and Jennie (Kirk) Murphy. No dates or burial found for James.",
+  "note": "Stewart's father. Married Jennie May Kirk in 1918, Kings Co. Correction: earlier versions had no dates for him.",
   "highlights": []
  },
  {
   "id": "jennie",
-  "name": "Jennie (Kirk) Murphy",
+  "name": "Jennie May (Kirk) Murphy",
   "conf": "confirmed",
-  "born": "Unknown",
-  "died": "",
-  "grave": "Unknown. No Find a Grave memorial was found, and other transcriptions were searched without success.",
-  "graveconf": "",
+  "born": "1898 (Berwick)",
+  "died": "26 Jan 1982 (Berwick)",
+  "grave": "Berwick Cemetery, Berwick, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
-  "parents": [],
+  "parents": [
+   "jwk",
+   "ldt"
+  ],
   "spouse": [
    "jamesm"
   ],
@@ -782,6 +825,14 @@
    [
     "John (Jack) Elwood Murphy obituary 1995 (genealogybuff transcription)",
     "https://www.genealogybuff.com/canada/novascotia/webbbs_config.pl/noframes/read/710"
+   ],
+   [
+    "Find a Grave: Jennie May Kirk Murphy",
+    "https://www.findagrave.com/memorial/178592584"
+   ],
+   [
+    "NS Archives marriage register: James Murphy & Jennie Kirk, 1918",
+    "https://archives.novascotia.ca/vital-statistics/marriage/?ID=161881"
    ]
   ],
   "gen": 6,
@@ -936,16 +987,18 @@
   "id": "shirley",
   "name": "Shirley Elaine (Tupper) Sturk",
   "conf": "confirmed",
-  "born": "Unknown",
-  "died": "Before 2022",
-  "grave": "Unknown",
-  "graveconf": "",
+  "born": "2 Dec 1930 (USA)",
+  "died": "20 Jan 2014 (Middleton)",
+  "grave": "Morristown Cemetery, Morristown, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "dbt",
    "hgh"
   ],
-  "spouse": [],
+  "spouse": [
+   "ebs"
+  ],
   "src": [
    [
     "Neil C. Tupper obituary (Middleton FH)",
@@ -961,7 +1014,7 @@
    ]
   ],
   "gen": 7,
-  "note": "Married Edmund Sturk.",
+  "note": "Married Edmund Belford Sturk.",
   "highlights": []
  },
  {
@@ -1022,10 +1075,10 @@
   "id": "elwood",
   "name": "Elwood Belmont Tupper",
   "conf": "confirmed",
-  "born": "Unknown",
-  "died": "Before 2022",
-  "grave": "Unknown cemetery. A matching name appears in the Kings Historical Society Kings Co. cemetery index (it lists \"Elwood Belmont\" Tupper).",
-  "graveconf": "likely",
+  "born": "18 Jul 1928 (Morristown)",
+  "died": "19 Feb 1998 (Kentville)",
+  "grave": "Morristown Cemetery, Morristown, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "dbt",
@@ -1074,6 +1127,10 @@
    [
     "Stewart D. Murphy obituary (Serenity FH)",
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ],
+   [
+    "Find a Grave: Stewart Dean Murphy",
+    "https://www.findagrave.com/memorial/178592817"
    ]
   ],
   "gen": 7,
@@ -1119,10 +1176,14 @@
    [
     "Stewart D. Murphy obituary (Serenity FH)",
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ],
+   [
+    "Find a Grave: Hazel Jean Doherty Murphy",
+    "https://www.findagrave.com/memorial/178592957"
    ]
   ],
   "gen": 7,
-  "note": "Sisters: Joyce Ann Gould, Carol Hampsey, Frances (Laurie) Lowe, Madeline (Eugene) Sheffield. Died before her: brothers Johnny and Eddie, and sister Geraldine (in infancy).",
+  "note": "Sisters: Joyce Ann Gould, Carol Hampsey, Frances (Laurie) Lowe, Madeline (Eugene) Sheffield. Died before her: brothers Johnny and Eddie, and sister Geraldine (in infancy). Find a Grave gives her first name as Hazel.",
   "highlights": [
    {
     "text": "Waitress at Rice's Restaurant and Villa Lunch; worked in the kitchen at Grand View Manor",
@@ -1268,7 +1329,7 @@
    ]
   ],
   "gen": 9,
-  "note": "Joy Walsh's 2013 obituary lists 'Dustin ... Brother: Kyle Tupper. H. Jean Murphy's 2015 obituary also lists Dustin as a grandchild.",
+  "note": "Joy Walsh's 2013 obituary and H. Jean Murphy's 2015 obituary both list Dustin among their grandchildren. Brother: Kyle Tupper.",
   "highlights": [],
   "living": true
  },
@@ -1964,6 +2025,10 @@
    [
     "John (Jack) Elwood Murphy obituary 1995 (genealogybuff transcription)",
     "https://www.genealogybuff.com/canada/novascotia/webbbs_config.pl/noframes/read/710"
+   ],
+   [
+    "Find a Grave: John (Jack) Elwood Murphy",
+    "https://www.findagrave.com/memorial/178063870"
    ]
   ],
   "gen": 7,
@@ -1999,19 +2064,21 @@
   ]
  },
  {
-  "born": "Unknown",
-  "died": "Before 1995",
-  "grave": "Unknown",
-  "graveconf": "",
+  "born": "12 Aug 1917 (Berwick)",
+  "died": "1979",
+  "grave": "Lakeview Cemetery, Billtown, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "jamesm",
    "jennie"
   ],
-  "spouse": [],
-  "note": "Her obituary was not found.",
+  "spouse": [
+   "cfo"
+  ],
+  "note": "Married Carl Frederick Ogilvie in 1948.",
   "id": "margo",
-  "name": "Margaret (Murphy) Ogilvie",
+  "name": "Margaret Elizabeth (Murphy) Ogilvie",
   "conf": "confirmed",
   "src": [
    [
@@ -2021,25 +2088,31 @@
    [
     "Stewart D. Murphy obituary (Serenity FH)",
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ],
+   [
+    "Find a Grave: Margaret Elizabeth Ogilvie",
+    "https://www.findagrave.com/memorial/253086909"
    ]
   ],
   "gen": 7,
   "highlights": []
  },
  {
-  "born": "Unknown",
-  "died": "Before 1995",
-  "grave": "Unknown",
-  "graveconf": "",
+  "born": "1922",
+  "died": "1980",
+  "grave": "Berwick Cemetery, Berwick, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "jamesm",
    "jennie"
   ],
-  "spouse": [],
-  "note": "His obituary was not found.",
+  "spouse": [
+   "mpm"
+  ],
+  "note": "Wife: M. Pauline Murphy (1924-2003), per Find a Grave.",
   "id": "hartley",
-  "name": "Hartley Murphy",
+  "name": "Hartley St. Clair Murphy",
   "conf": "confirmed",
   "src": [
    [
@@ -2049,6 +2122,10 @@
    [
     "Stewart D. Murphy obituary (Serenity FH)",
     "https://serenityfuneralhome.ca/tribute/details/3782/Stewart-Murphy/obituary.html"
+   ],
+   [
+    "Find a Grave: Hartley St. Clair Murphy",
+    "https://www.findagrave.com/memorial/178593311"
    ]
   ],
   "gen": 7,
@@ -2136,8 +2213,8 @@
  {
   "born": "26 Jun 1883 (Newburne, Lunenburg Co.)",
   "died": "2 May 1963 (Maplewood, Lunenburg Co.)",
-  "grave": "Newburne, Lunenburg Co. (buried 4 May 1963)",
-  "graveconf": "likely",
+  "grave": "Saint Matthew's Lutheran Cemetery, Newburne, Lunenburg Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "jhw",
@@ -2174,8 +2251,8 @@
  {
   "born": "21 Apr 1894 (Newburne, Lunenburg Co.)",
   "died": "5 Sep 1959 (Maplewood, Lunenburg Co.)",
-  "grave": "Newburne, Lunenburg Co.",
-  "graveconf": "likely",
+  "grave": "Saint Matthew's Lutheran Cemetery, Newburne, Lunenburg Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "hbb",
@@ -2525,8 +2602,8 @@
  {
   "born": "14 Nov 1855 (Norwood Settlement, Lunenburg Co.)",
   "died": "4 Mar 1941 (Waterville, Kings Co.)",
-  "grave": "Unknown",
-  "graveconf": "",
+  "grave": "Pleasant Valley Cemetery, Somerset, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "hjs",
@@ -2557,10 +2634,10 @@
   "highlights": []
  },
  {
-  "born": "16 May 1857 (Lake Settlement, Sherbrooke, Lunenburg Co.)",
-  "died": "Before 1907",
-  "grave": "Unknown",
-  "graveconf": "",
+  "born": "16 Mar 1859 (New Ross) per Find a Grave; 16 May 1857 (Lake Settlement, Sherbrooke) per Saltzman Register",
+  "died": "1906",
+  "grave": "Pleasant Valley Cemetery, Somerset, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [
    "gel",
@@ -2569,7 +2646,7 @@
   "spouse": [
    "dhs"
   ],
-  "note": "Emery's mother.",
+  "note": "Emery's mother. Birth conflict: Find a Grave says 16 Mar 1859 at New Ross; the Saltzman Register says 16 May 1857 at Lake Settlement. Death: 1906 (Find a Grave), consistent with the register's \"before 1907\".",
   "src": [
    [
     "Find a Grave: Sarah Priscilla Legge",
@@ -2587,20 +2664,32 @@
   "highlights": []
  },
  {
-  "born": "1881",
-  "died": "1948",
-  "grave": "Unknown",
-  "graveconf": "",
+  "born": "8 Apr 1881 (Halls Harbour, Kings Co.)",
+  "died": "21 Mar 1948 (Berwick)",
+  "grave": "United Baptist Cemetery, Black Rock, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
   "parents": [],
   "spouse": [
    "eaf"
   ],
-  "note": "Jim Doherty's father, per Find a Grave. His grave was not provided.",
+  "note": "Jim Doherty's father. Married Elsie Agusta Fredericks in 1904, Kings Co. Jim had 11 siblings per Find a Grave (names not yet recorded here).",
   "src": [
    [
     "Find a Grave: James Alfred Doherty (parents linked)",
     "https://www.findagrave.com/memorial/190420192"
+   ],
+   [
+    "Find a Grave: Grant Alfred Doherty",
+    "https://www.findagrave.com/memorial/190419541"
+   ],
+   [
+    "NS Archives death register: Grant Alfred Doherty, 1948",
+    "https://archives.novascotia.ca/vital-statistics/death/?ID=351601"
+   ],
+   [
+    "NS Archives marriage register: Grant Doherty & Elsie Fredericks, 1904",
+    "https://archives.novascotia.ca/vital-statistics/marriage/?ID=116037"
    ]
   ],
   "id": "gad",
@@ -2610,12 +2699,15 @@
   "highlights": []
  },
  {
-  "born": "1886",
-  "died": "1958",
-  "grave": "Unknown",
-  "graveconf": "",
+  "born": "3 Oct 1886 (Lakeville, Kings Co.)",
+  "died": "30 Jun 1958",
+  "grave": "United Baptist Cemetery, Black Rock, Kings Co. NS",
+  "graveconf": "confirmed",
   "obit": "",
-  "parents": [],
+  "parents": [
+   "jfred",
+   "jjf"
+  ],
   "spouse": [
    "gad"
   ],
@@ -2624,6 +2716,14 @@
    [
     "Find a Grave: James Alfred Doherty (parents linked)",
     "https://www.findagrave.com/memorial/190420192"
+   ],
+   [
+    "Find a Grave: Elsie Agusta Fredericks Doherty",
+    "https://www.findagrave.com/memorial/190419572"
+   ],
+   [
+    "NS Archives marriage register: Grant Doherty & Elsie Fredericks, 1904",
+    "https://archives.novascotia.ca/vital-statistics/marriage/?ID=116037"
    ]
   ],
   "id": "eaf",
@@ -2889,5 +2989,280 @@
   "gen": 4,
   "note": "Mother of Addie Speck Rogers per the Saltzman Register.",
   "highlights": []
+ },
+ {
+  "id": "jedm",
+  "name": "James Edward Murphy",
+  "conf": "confirmed",
+  "born": "1864",
+  "died": "1933",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "ecm"
+  ],
+  "src": [
+   [
+    "Find a Grave: James Edward Murphy",
+    "https://www.findagrave.com/memorial/131056402"
+   ]
+  ],
+  "gen": 5,
+  "note": "Father of James Evander Murphy, per Find a Grave.",
+  "highlights": []
+ },
+ {
+  "id": "ecm",
+  "name": "Elizabeth (Coulter) Murphy",
+  "conf": "confirmed",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "jedm"
+  ],
+  "src": [
+   [
+    "Find a Grave: Elizabeth Coulter Murphy",
+    "https://www.findagrave.com/memorial/131056472"
+   ]
+  ],
+  "gen": 5,
+  "note": "Mother of James Evander Murphy, per Find a Grave.",
+  "highlights": []
+ },
+ {
+  "id": "jwk",
+  "name": "John William Kirk",
+  "conf": "confirmed",
+  "born": "1872",
+  "died": "1906",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "ldt"
+  ],
+  "src": [
+   [
+    "Find a Grave: John William Kirk",
+    "https://www.findagrave.com/memorial/179377989"
+   ]
+  ],
+  "gen": 5,
+  "note": "Father of Jennie May Kirk, per Find a Grave.",
+  "highlights": []
+ },
+ {
+  "id": "ldt",
+  "name": "Laura Della (Taylor) Kirk",
+  "conf": "confirmed",
+  "born": "1877",
+  "died": "1954",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "jwk"
+  ],
+  "src": [
+   [
+    "Find a Grave: Laura Della Taylor Kirk",
+    "https://www.findagrave.com/memorial/183871454"
+   ]
+  ],
+  "gen": 5,
+  "note": "Mother of Jennie May Kirk, per Find a Grave.",
+  "highlights": []
+ },
+ {
+  "id": "cfo",
+  "name": "Carl Frederick Ogilvie",
+  "conf": "confirmed",
+  "born": "1913",
+  "died": "2009",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "margo"
+  ],
+  "src": [
+   [
+    "Find a Grave: Margaret Elizabeth Ogilvie (spouse link)",
+    "https://www.findagrave.com/memorial/253086909"
+   ]
+  ],
+  "gen": 7,
+  "note": "Married Margaret Elizabeth Murphy in 1948.",
+  "highlights": []
+ },
+ {
+  "id": "mpm",
+  "name": "M. Pauline Murphy",
+  "conf": "confirmed",
+  "born": "1924",
+  "died": "2003",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "hartley"
+  ],
+  "src": [
+   [
+    "Find a Grave: Hartley St. Clair Murphy (spouse link)",
+    "https://www.findagrave.com/memorial/178593311"
+   ]
+  ],
+  "gen": 7,
+  "note": "Hartley St. Clair Murphy's wife.",
+  "highlights": []
+ },
+ {
+  "id": "jfred",
+  "name": "John Fredericks",
+  "conf": "confirmed",
+  "born": "1848",
+  "died": "1898",
+  "grave": "Cambridge United Baptist Cemetery, Kings Co. NS",
+  "graveconf": "confirmed",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "jjf"
+  ],
+  "src": [
+   [
+    "Find a Grave: John Fredericks",
+    "https://www.findagrave.com/memorial/165337835"
+   ]
+  ],
+  "gen": 4,
+  "note": "Father of Elsie Agusta Fredericks, per Find a Grave.",
+  "highlights": []
+ },
+ {
+  "id": "jjf",
+  "name": "Josephine (Johnson) Fredericks",
+  "conf": "confirmed",
+  "born": "1862",
+  "died": "1929",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "jfred"
+  ],
+  "src": [
+   [
+    "Find a Grave: Josephine Johnson Fredericks",
+    "https://www.findagrave.com/memorial/165337838"
+   ]
+  ],
+  "gen": 4,
+  "note": "Mother of Elsie Agusta Fredericks, per Find a Grave.",
+  "highlights": []
+ },
+ {
+  "id": "edmundh",
+  "name": "Edmund Haines",
+  "conf": "confirmed",
+  "born": "Unknown",
+  "died": "1893",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [],
+  "src": [
+   [
+    "Find a Grave: Edmund Haines",
+    "https://www.findagrave.com/memorial/190260081"
+   ]
+  ],
+  "gen": 4,
+  "note": "Father of Twining Haines, per Find a Grave.",
+  "highlights": []
+ },
+ {
+  "id": "ham",
+  "name": "Henry Allan Mossman",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "lucyv"
+  ],
+  "src": [
+   [
+    "Find a Grave: Bessie Mossman Haines (obituary on memorial)",
+    "https://www.findagrave.com/memorial/142821856"
+   ]
+  ],
+  "gen": 4,
+  "note": "Bessie's father, as named in her obituary.",
+  "highlights": []
+ },
+ {
+  "id": "lucyv",
+  "name": "Lucy (Veinotte) Mossman",
+  "conf": "likely",
+  "born": "Unknown",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "ham"
+  ],
+  "src": [
+   [
+    "Find a Grave: Bessie Mossman Haines (obituary on memorial)",
+    "https://www.findagrave.com/memorial/142821856"
+   ]
+  ],
+  "gen": 4,
+  "note": "Bessie's mother, as named in her obituary.",
+  "highlights": []
+ },
+ {
+  "id": "ebs",
+  "name": "Edmund Belford Sturk",
+  "conf": "confirmed",
+  "born": "",
+  "died": "Unknown",
+  "grave": "Unknown",
+  "graveconf": "",
+  "obit": "",
+  "parents": [],
+  "spouse": [
+   "shirley"
+  ],
+  "src": [
+   [
+    "Find a Grave: Edmund Belford Sturk",
+    "https://www.findagrave.com/memorial/196708500"
+   ]
+  ],
+  "gen": 7,
+  "note": "Shirley's husband, per Find a Grave.",
+  "highlights": [],
+  "living": true
  }
 ]
